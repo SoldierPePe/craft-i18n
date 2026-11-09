@@ -397,7 +397,7 @@
 	Rename layer	إعادة تسمية الطبقة
 	Rename Scene	إعادة تسمية المشهد
 	Rename scene	إعادة تسمية المشهد
-	render {ms} ms · tiles {ready}/{needed}	التصيير {ms} ميلي ثانية · المربعات {ready}/{needed}
+	render {ms} ms{renderer} · tiles {ready}/{needed}	التصيير {ms} ميلي ثانية{renderer} · المربعات {ready}/{needed}
 	Rendering	التصيير
 	Replace existing file?	استبدال الملف الموجود؟
 	Replace exported frames?	استبدال الإطارات المصدَّرة؟
