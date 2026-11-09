@@ -12,6 +12,12 @@
 # consulted or copied; add entries the same way.
 
 	+ Layer	+ طبقة
+	1 minute	دقيقة واحدة
+	10 minutes	10 دقائق
+	2 minutes	دقيقتان
+	30 seconds	30 ثانية
+	5 minutes	5 دقائق
+	A recovery copy of your unsaved work. If AniCraft closes unexpectedly, the next start offers it back.	نسخة استعادة من عملك غير المحفوظ. إذا أُغلق AniCraft فجأة، يعرضها عليك في التشغيل التالي.
 	About AniCraft	حول AniCraft
 	Actual size (100%)	الحجم الفعلي (100%)
 	Add a shortcut	إضافة اختصار
@@ -31,18 +37,30 @@
 	Also morphs one shape into another	يحوّل أيضًا شكلًا إلى شكل آخر
 	Always render off the UI thread. The window never waits; the picture can trail by a frame.	التصيير دائمًا خارج خيط الواجهة. لا تنتظر النافذة أبدًا، وقد تتأخر الصورة بإطار واحد.
 	An action can have up to {n} keys.	يمكن أن يكون للإجراء الواحد حتى {n} من المفاتيح.
+	AniCraft didn't close properly last time. These documents had changes that weren't saved:	لم يُغلق AniCraft بشكل سليم في المرة الأخيرة. كانت في هذه المستندات تغييرات لم تُحفظ:
+	AniCraft didn't close properly last time. This document had changes that weren't saved:	لم يُغلق AniCraft بشكل سليم في المرة الأخيرة. كانت في هذا المستند تغييرات لم تُحفظ:
 	AniCraft document	مستند AniCraft
 	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft برنامج حر: MIT أو Apache-2.0، حسب اختيارك.
 	Animated GIF	GIF متحرك
 	Architecture philosophy	فلسفة البنية
 	Arrange	ترتيب
 	Auto follows the system's language. Document text, file names and command ids stay as they are.	«تلقائي» يتبع لغة النظام. تبقى نصوص المستند وأسماء الملفات ومعرّفات الأوامر كما هي.
+	Autosave	الحفظ التلقائي
+	Autosave failed: {reason}. Save your work to be safe; AniCraft will keep trying.	فشل الحفظ التلقائي: {reason}. احفظ عملك احتياطًا، وسيواصل AniCraft المحاولة.
+	Autosave is off on this system, so there is nothing to recover	الحفظ التلقائي متوقف على هذا النظام، فلا يوجد ما يُستعاد
+	Autosave is off: this system has no settings folder	الحفظ التلقائي متوقف: لا يوجد مجلد إعدادات على هذا النظام
+	Autosave is off: {reason}	الحفظ التلقائي متوقف: {reason}
+	Autosave Now	حفظ تلقائي الآن
+	autosaved {when}	حُفظ تلقائيًا {when}
+	Autosaved {when} · {frames}	حُفظ تلقائيًا {when} · {frames}
+	Autosaved {when} · {frames} · {scenes}	حُفظ تلقائيًا {when} · {frames} · {scenes}
 	Back to the default ({keys})	العودة إلى الافتراضي ({keys})
 	Background	في الخلفية
 	Bitmap · {w}×{h}	صورة نقطية · {w}×{h}
 	Blank	فارغ
 	Blank Keyframe	إطار رئيسي فارغ
 	Blending	المزج
+	Blur	التمويه
 	Break Apart	تفكيك
 	Bring Forward	تقديم للأمام
 	Button	زر
@@ -50,6 +68,7 @@
 	Cancelled	أُلغي
 	cancelling	الإلغاء
 	Centre	وسط
+	changes	تغييرات
 	Change…	تغيير…
 	Classic	كلاسيكي
 	Classic tween	تحريك بيني كلاسيكي
@@ -108,13 +127,19 @@
 	Delete Scene	حذف المشهد
 	Delete scene?	حذف المشهد؟
 	Delete the active layer	حذف الطبقة النشطة
+	Delete this autosaved copy	حذف هذه النسخة المحفوظة تلقائيًا
 	Deleted layer — Ctrl+Z to undo	تم حذف الطبقة — Ctrl+Z للتراجع
 	Deleted scene — Ctrl+Z to undo	تم حذف المشهد — Ctrl+Z للتراجع
 	Deleted {elements} — Ctrl+Z to undo	تم حذف {elements} — Ctrl+Z للتراجع
 	Desktop app (source)	تطبيق سطح المكتب (المصدر)
 	Difference	فرق
+	Discard Autosaved Document	تجاهل المستند المحفوظ تلقائيًا
+	Discard autosaved document?	تجاهل المستند المحفوظ تلقائيًا؟
 	Discard Changes	تجاهل التغييرات
 	Discard unsaved changes?	تجاهل التغييرات غير المحفوظة؟
+	Discarded the autosaved copy	تم تجاهل النسخة المحفوظة تلقائيًا
+	Discarding deletes this work for good. This cannot be undone.	التجاهل يحذف هذا العمل نهائيًا. لا يمكن التراجع عن هذا.
+	Discard…	تجاهل…
 	Distribute Horizontal Centers	توزيع المراكز أفقيًا
 	Distribute Vertical Centers	توزيع المراكز عموديًا
 	Document Info	معلومات المستند
@@ -147,6 +172,7 @@
 	Enter saves · Esc cancels	Enter للحفظ · Esc للإلغاء
 	Esc cancels · click the red button to proceed	Esc للإلغاء · انقر الزر الأحمر للمتابعة
 	Essentials	الأساسيات
+	Every	كل
 	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	يُصيَّر كل تعديل قبل الإطار التالي. أقل تأخير، وقد يتقطع في المشاهد الثقيلة جدًا.
 	Every shortcut is back to the defaults.	عادت كل الاختصارات إلى الافتراضي.
 	Exit	خروج
@@ -176,6 +202,7 @@
 	Filled the area. Ctrl+Z to undo.	تمت تعبئة المنطقة. Ctrl+Z للتراجع.
 	Filter by name or key…	تصفية حسب الاسم أو المفتاح…
 	Filter fonts…	تصفية الخطوط…
+	Filters	المرشحات
 	First frame	الإطار الأول
 	First frame (Home)	الإطار الأول (Home)
 	Fit in Window	ملاءمة للنافذة
@@ -210,6 +237,7 @@
 	Hand	اليد
 	Hard Light	ضوء ساطع
 	Horizontal Center	المركز الأفقي
+	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	إذا أُغلق AniCraft فجأة، يعرض عليك التشغيل التالي استعادته. تبقى النسخ في مجلد الإعدادات ولا تحل محل ملفاتك أبدًا، وتُحذف عند الحفظ.
 	If you don't save, your changes since the last save will be lost.	إذا لم تحفظ، ستضيع تغييراتك منذ آخر حفظ.
 	Immediate	فوري
 	Import to stage (SVG, PNG or JPEG)	استيراد إلى المسرح (SVG أو PNG أو JPEG)
@@ -225,13 +253,17 @@
 	Interface font	خط الواجهة
 	Interface scale	مقياس الواجهة
 	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	إنه مشروع مستقل، غير تابع لـ Adobe ولا معتمد منها. تحتفظ الخطوط المرفقة وحزم Rust بتراخيصها المتساهلة الخاصة بها، المذكورة أدناه.
+	Keep	إبقاء
+	Keep a recovery copy of unsaved work	الاحتفاظ بنسخة استعادة من العمل غير المحفوظ
 	Keeps step with the timeline it is on (looping options below)	يسير مع المخطط الزمني الذي يقع عليه (خيارات التكرار أدناه)
+	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	أُبقي العمل المحفوظ تلقائيًا. ملف › استعادة المستندات المحفوظة تلقائيًا… يعيده.
 	Keyboard Shortcuts	اختصارات لوحة المفاتيح
 	Keyboard shortcuts (this editor)	اختصارات لوحة المفاتيح (هذا المحرر)
 	Keyframe	إطار رئيسي
 	Keyframe at {at} · {frames} · {elements}	إطار رئيسي عند {at} · {frames} · {elements}
 	Kind	النوع
 	Last frame (End)	الإطار الأخير (End)
+	Later keeps them: File › Recover Autosaved Documents… brings this back.	«لاحقًا» يُبقيها: ملف › استعادة المستندات المحفوظة تلقائيًا… يعيد هذه النافذة.
 	Layer names, menus and dialog text read like this.	هكذا تظهر أسماء الطبقات والقوائم ونصوص مربعات الحوار.
 	Layer Type	نوع الطبقة
 	Layer “{name}” has {keyframes} with {elements}. You can undo this.	في الطبقة «{name}» {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
@@ -274,6 +306,7 @@
 	Movie clip	مقطع فيلم
 	moving between fields	التنقل بين الحقول
 	Multiply	ضرب
+	Never saved	لم يُحفظ قط
 	New document	مستند جديد
 	New Folder	مجلد جديد
 	New folder above the active layer (move layers in under it with Up and Down)	مجلد جديد فوق الطبقة النشطة (انقل الطبقات إلى داخله بزرّي الأعلى والأسفل)
@@ -283,6 +316,7 @@
 	Next Frame	الإطار التالي
 	Next frame (.)	الإطار التالي (.)
 	Next Scene	المشهد التالي
+	No autosaved work to recover	لا يوجد عمل محفوظ تلقائيًا لاستعادته
 	No fonts found on this computer	لم يُعثر على خطوط في هذا الحاسوب
 	No matching commands	لا توجد أوامر مطابقة
 	No symbols or images yet. Select artwork and press {symbol} to make a symbol, or import an image with {import}.	لا توجد رموز أو صور بعد. حدّد رسمًا واضغط {symbol} لصنع رمز، أو استورد صورة بـ {import}.
@@ -298,10 +332,12 @@
 	Onion Skin On / Off	قشرة البصل تشغيل / إيقاف
 	Open document	فتح مستند
 	Open folder	توسيع المجلد
+	Open it as unsaved work	فتحه كعمل غير محفوظ
 	Open-source 2D vector animation studio, written in Rust.	استوديو مفتوح المصدر للرسوم المتحركة المتجهية ثنائية الأبعاد، مكتوب بلغة Rust.
 	Opened	تم الفتح
 	Opened document	تم فتح المستند
 	Opened in your system's file viewer	فُتح في مستعرض الملفات في نظامك
+	Or after	أو بعد
 	Orient to Path	التوجّه مع المسار
 	Orient to path	التوجّه مع المسار
 	Other	أخرى
@@ -345,6 +381,8 @@
 	Quit AniCraft	إنهاء AniCraft
 	quitting	الإنهاء
 	Recoloured the fill. Ctrl+Z to undo.	تم تغيير لون التعبئة. Ctrl+Z للتراجع.
+	Recover Autosaved Documents…	استعادة المستندات المحفوظة تلقائيًا…
+	Recover unsaved work	استعادة العمل غير المحفوظ
 	Redid {action}	تمت إعادة {action}
 	Remove Frame	إزالة الإطار
 	Remove frame?	إزالة الإطار؟
@@ -367,6 +405,9 @@
 	Reset	إعادة تعيين
 	Reset all	إعادة تعيين الكل
 	Reset all…	إعادة تعيين الكل…
+	Restore Autosaved Document	استعادة المستند المحفوظ تلقائيًا
+	Restored “{name}” as a new document (the file on disk is newer). Save to keep it.	استُعيد «{name}» كمستند جديد (الملف على القرص أحدث). احفظه لتُبقي عليه.
+	Restored “{name}”. It isn't saved yet: Save to keep it.	استُعيد «{name}». لم يُحفظ بعد: احفظه لتُبقي عليه.
 	Roadmap	خارطة الطريق
 	Rotate 90° CCW	تدوير 90° عكس اتجاه عقارب الساعة
 	Rotate 90° CW	تدوير 90° باتجاه عقارب الساعة
@@ -406,6 +447,7 @@
 	Stage size	حجم المسرح
 	Stop	إيقاف
 	Straighten	تقويم
+	Strength	الشدة
 	Stroke	الحد
 	Stroke colour	لون الحد
 	Stroke width	سُمك الحد
@@ -418,8 +460,10 @@
 	Text colour	لون النص
 	Text width	عرض النص
 	Text: {text}	نص: {text}
+	The autosaved copy of “{name}” will be deleted, with the work it holds.	ستُحذف النسخة المحفوظة تلقائيًا من «{name}» مع العمل الذي فيها.
 	the command palette	لوحة الأوامر
 	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	يعرض خط البيانات الأرقام والرمز الزمني والمساطر والاختصارات، ولا تُدرج إلا العائلات ثابتة العرض كي تبقى الأرقام متحاذية.
+	The file was saved after this copy, so it opens as a new document and Save asks for a name.	حُفظ الملف بعد هذه النسخة، لذا تُفتح كمستند جديد ويطلب «حفظ» اسمًا.
 	The keyframe at frame {frame} on “{name}” holds {elements}. You can undo this.	الإطار الرئيسي عند الإطار {frame} في «{name}» يحوي {elements}. يمكنك التراجع عن هذا.
 	The selected frames hold {keyframes} with {elements}. You can undo this.	تحوي الإطارات المحددة {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
 	the shortcut editor	محرر الاختصارات
@@ -452,6 +496,7 @@
 	View action	إجراء عرض
 	Welcome to AniCraft. Press Enter to play the sample animation.	مرحبًا بك في AniCraft. اضغط Enter لتشغيل الرسوم المتحركة التجريبية.
 	Where AniCraft's documents and files are on this computer	أين توجد مستندات AniCraft وملفاته على هذا الحاسوب
+	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	أيهما يأتي أولًا. 0 تغييرات: حسب الوقت فقط. تُكتب النسخ في الخلفية، فلا ينتظر الرسم أبدًا.
 	Wrap	التفاف الأسطر
 	Wrap lines at a fixed width; off, each paragraph stays on one line	يلفّ الأسطر عند عرض ثابت؛ وعند إيقافه تبقى كل فقرة على سطر واحد
 	Zoom at the cursor	التكبير عند المؤشر
@@ -470,6 +515,7 @@
 	{n} commands are scriptable via anicraft-cli	عدد الأوامر القابلة للبرمجة عبر anicraft-cli: {n}
 	{n} engine commands — all available headless via anicraft-cli.	أوامر المحرك: {n} — كلها متاحة بلا واجهة عبر anicraft-cli.
 	{n} f	{n} إطار
+	{n} seconds	{n} ثانية
 	{n} silenced this session	تم إسكاتها في هذه الجلسة: {n}
 	{os} · settings stored in {place}	{os} · الإعدادات محفوظة في {place}
 	{path} already exists. Exporting will replace it; this cannot be undone.	{path} موجود مسبقًا. التصدير سيستبدله، ولا يمكن التراجع عن ذلك.
@@ -481,9 +527,13 @@
 	“{name}” has changes that are not saved. They will be lost, and its undo history is cleared.	في «{name}» تغييرات غير محفوظة. ستضيع، ويُمسح سجل التراجع الخاص به.
 	… older steps freed (memory budget)	… حُرّرت الخطوات الأقدم (ميزانية الذاكرة)
 @plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	إعادة {n} من الاختصارات المغيّرة إلى الافتراضي؟|إعادة الاختصار المغيّر ({n}) إلى الافتراضي؟|إعادة الاختصارين المغيّرين ({n}) إلى الافتراضي؟|إعادة {n} اختصارات مغيّرة إلى الافتراضي؟|إعادة {n} اختصارًا مغيّرًا إلى الافتراضي؟|إعادة {n} اختصار مغيّر إلى الافتراضي؟
+@plural	{n} day ago|{n} days ago	منذ {n} يوم|منذ {n} يوم|منذ {n} يومين|منذ {n} أيام|منذ {n} يومًا|منذ {n} يوم
 @plural	{n} element|{n} elements	{n} عنصر|{n} عنصر|{n} عنصران|{n} عناصر|{n} عنصرًا|{n} عنصر
 @plural	{n} frame|{n} frames	{n} إطار|{n} إطار|{n} إطاران|{n} إطارات|{n} إطارًا|{n} إطار
+@plural	{n} h ago|{n} h ago	منذ {n} ساعة|منذ {n} ساعة|منذ {n} ساعتين|منذ {n} ساعات|منذ {n} ساعةً|منذ {n} ساعة
 @plural	{n} item|{n} items	{n} عنصر|{n} عنصر|{n} عنصران|{n} عناصر|{n} عنصرًا|{n} عنصر
 @plural	{n} keyframe|{n} keyframes	{n} إطار رئيسي|{n} إطار رئيسي|{n} إطاران رئيسيان|{n} إطارات رئيسية|{n} إطارًا رئيسيًا|{n} إطار رئيسي
 @plural	{n} layer|{n} layers	{n} طبقة|{n} طبقة|{n} طبقتان|{n} طبقات|{n} طبقةً|{n} طبقة
+@plural	{n} min ago|{n} min ago	منذ {n} دقيقة|منذ {n} دقيقة|منذ {n} دقيقتين|منذ {n} دقائق|منذ {n} دقيقةً|منذ {n} دقيقة
+@plural	{n} scene|{n} scenes	{n} مشهد|{n} مشهد|{n} مشهدان|{n} مشاهد|{n} مشهدًا|{n} مشهد
 @plural	{n} shape|{n} shapes	{n} شكل|{n} شكل|{n} شكلان|{n} أشكال|{n} شكلًا|{n} شكل
