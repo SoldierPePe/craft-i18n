@@ -13,6 +13,7 @@
 
 	(unnamed)	(بلا اسم)
 	+ Layer	+ طبقة
+	// Type or paste a frame script	// اكتب برنامجًا نصيًا للإطار أو الصقه
 	1 minute	دقيقة واحدة
 	10 minutes	10 دقائق
 	100 %: as wide as it is tall. Less flattens the tip, for calligraphic strokes	100 %: عرضه مثل ارتفاعه. الأقل يسطّح الرأس، لضربات خطية
@@ -122,6 +123,7 @@
 	Brush Stroke	ضربة فرشاة
 	Bulge	انتفاخ
 	Button	زر
+	button	زر
 	Button {name}	زر {name}
 	Button: {name}	زر: {name}
 	by {author} · {id} · {size}	من {author} · {id} · {size}
@@ -143,10 +145,12 @@
 	Changed the stroke's width. Ctrl+Z to undo.	تغيّر سُمك الحد. Ctrl+Z للتراجع.
 	changes	تغييرات
 	Change…	تغيير…
+	Class	الصنف
 	Classic	كلاسيكي
 	Classic tween	تحريك بيني كلاسيكي
 	Classic {strength}	كلاسيكي {strength}
 	Clear Actions	مسح الإجراءات
+	Clear Frame Script	مسح البرنامج النصي للإطار
 	Clear Keyframe	مسح الإطار الرئيسي
 	Clear keyframe?	مسح الإطار الرئيسي؟
 	Clear Keyframes	مسح الإطارات الرئيسية
@@ -171,6 +175,7 @@
 	Close large gaps	إغلاق الفجوات الكبيرة
 	Close medium gaps	إغلاق الفجوات المتوسطة
 	Close small gaps	إغلاق الفجوات الصغيرة
+	Code in a scripting language (such as an Animate document's ActionScript), kept with the document. It doesn't run yet	شيفرة بلغة برمجة نصية (مثل ActionScript في مستندات Animate)، تُحفظ مع المستند. لا تعمل بعد
 	Colour stop	نقطة اللون
 	Colours	الألوان
 	Command palette	لوحة الأوامر
@@ -226,6 +231,7 @@
 	Delete sound?	حذف الصوت؟
 	Delete the active layer	حذف الطبقة النشطة
 	Delete this autosaved copy	حذف هذه النسخة المحفوظة تلقائيًا
+	Delete this keyframe's script	حذف البرنامج النصي لهذا الإطار الرئيسي
 	Delete whole fills and lines	حذف التعبئات والخطوط كاملة
 	Delete Width Point	حذف نقطة العرض
 	Deleted layer — Ctrl+Z to undo	تم حذف الطبقة — Ctrl+Z للتراجع
@@ -250,6 +256,7 @@
 	Distance 	المسافة 
 	Distribute Horizontal Centers	توزيع المراكز أفقيًا
 	Distribute Vertical Centers	توزيع المراكز عموديًا
+	Document class	صنف المستند
 	Document Info	معلومات المستند
 	Document Settings	إعدادات المستند
 	Documents	المستندات
@@ -295,6 +302,7 @@
 	Enter confirms · Esc cancels	Enter للتأكيد · Esc للإلغاء
 	Enter saves · Esc cancels	Enter للحفظ · Esc للإلغاء
 	Entry	المدخل
+	Entry point	نقطة الدخول
 	Erase Everything	مسح كل شيء
 	Erase everything?	مسح كل شيء؟
 	Erase Everything…	مسح كل شيء…
@@ -400,6 +408,7 @@
 	Frame {frame}	الإطار {frame}
 	Frame {frame} is a one-frame keyframe on “{name}” with {elements}; removing it deletes that artwork. You can undo this.	الإطار {frame} إطار رئيسي بطول إطار واحد في «{name}» فيه {elements}، وإزالته تحذف ذلك الرسم. يمكنك التراجع عن هذا.
 	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	الإطار {frame} فارغ في هذه الطبقة. أضف إطارًا رئيسيًا فارغًا ({key}) لتعطيه إجراءات.
+	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	الإطارات هنا لا تعمل (المخططات الزمنية للرسوم والأزرار، وطبقات الدليل)؛ ويُحفظ البرنامج النصي مع المستند.
 	Frames of {name}	إطارات {name}
 	Free Transform	التحويل الحر
 	Full	كامل
@@ -418,6 +427,7 @@
 	gradient	تدرّج لوني
 	Gradient Bevel	شطف متدرّج
 	Gradient Glow	توهّج متدرّج
+	graphic	رسم
 	Graphic: {name}	رسم: {name}
 	Guide	دليل
 	guide layer	طبقة دليل
@@ -466,6 +476,7 @@
 	Keep a recovery copy of unsaved work	الاحتفاظ بنسخة استعادة من العمل غير المحفوظ
 	Keeps step with the timeline it is on (looping options below)	يسير مع المخطط الزمني الذي يقع عليه (خيارات التكرار أدناه)
 	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	أُبقي العمل المحفوظ تلقائيًا. ملف › استعادة المستندات المحفوظة تلقائيًا… يعيده.
+	Kept with the document as written. AniCraft doesn't run scripts yet: Test Movie and exports skip it. Use actions for what should happen while the movie plays.	يُحفظ مع المستند كما كُتب. لا يشغّل AniCraft البرامج النصية بعد: يتخطاه اختبار الفيلم والتصدير. استخدم الإجراءات لما يجب أن يحدث أثناء تشغيل الفيلم.
 	Keyboard Shortcuts	اختصارات لوحة المفاتيح
 	Keyboard shortcuts (this editor)	اختصارات لوحة المفاتيح (هذا المحرر)
 	Keyframe	إطار رئيسي
@@ -494,7 +505,9 @@
 	linear gradient	التدرّج الخطي
 	Lines 	الأسطر 
 	Lines written	الأسطر المكتوبة
+	Linkage class	صنف الربط
 	List Actions	سرد الإجراءات
+	List Frame Scripts	سرد البرامج النصية للإطارات
 	Lock {name}	قفل {name}
 	Lock/Unlock Layer	قفل/إلغاء قفل الطبقة
 	Loop	تكرار
@@ -721,6 +734,7 @@
 	Remove Plug-in	إزالة المكوّن الإضافي
 	Remove plug-in?	إزالة المكوّن الإضافي؟
 	Remove Property Keyframe	إزالة الإطار الرئيسي للخاصية
+	Remove script	إزالة البرنامج النصي
 	Remove Shape Hint	إزالة تلميح الشكل
 	Remove Sound	إزالة الصوت
 	Remove the {property} keyframe at frame {frame}	إزالة الإطار الرئيسي لـ {property} في الإطار {frame}
@@ -733,6 +747,9 @@
 	Remove {filter}	إزالة {filter}
 	Remove {filter} colour stop	إزالة نقطة لون {filter}
 	Removed shape hint {letter}. {undo} to undo.	أُزيل تلميح الشكل {letter}. {undo} للتراجع.
+	Removed the actions — Ctrl+Z to undo	أُزيلت الإجراءات — Ctrl+Z للتراجع
+	Removed the plug-in frame script — Ctrl+Z to undo	أُزيل البرنامج النصي للإطار من المكوّن الإضافي — Ctrl+Z للتراجع
+	Removed the script — Ctrl+Z to undo	أُزيل البرنامج النصي — Ctrl+Z للتراجع
 	Removed the width point. Ctrl+Z to undo.	أُزيلت نقطة العرض. Ctrl+Z للتراجع.
 	Removed the {event} event — Ctrl+Z to undo	أُزيل حدث {event} — Ctrl+Z للتراجع
 	Removed {frames} — Ctrl+Z to undo	تمت إزالة {frames} — Ctrl+Z للتراجع
@@ -795,6 +812,9 @@
 	Scene “{name}” has {keyframes} with {elements}. You can undo this.	في المشهد «{name}» {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
 	Screen	شاشة
 	Screenshots	لقطات الشاشة
+	Script	برنامج نصي
+	Script language	لغة البرنامج النصي
+	Scripts from other tools are kept with the document as written; use actions for what should happen while the movie plays	البرامج النصية من الأدوات الأخرى تُحفظ مع المستند كما كُتبت؛ استخدم الإجراءات لما يجب أن يحدث أثناء تشغيل الفيلم
 	Scroll the timeline	تمرير المخطط الزمني
 	Scroll the timeline (or Shift+wheel anywhere over it)	تمرير المخطط الزمني (أو Shift مع العجلة في أي مكان فوقه)
 	Select All Frames	تحديد كل الإطارات
@@ -809,7 +829,9 @@
 	Select the object to see its path on the stage. Drag the path to bend it, its ends to move them; the Subselection tool (A) edits its points and handles.	حدّد الكائن لترى مساره على المسرح. اسحب المسار لثنيه، وطرفيه لنقلهما؛ وأداة التحديد الفرعي (A) تحرّر نقاطه ومقابضه.
 	Send Backward	إرجاع للخلف
 	Set Actions	تعيين الإجراءات
+	Set Frame Script	تعيين البرنامج النصي للإطار
 	Set property	تعيين خاصية
+	Set Script Class	تعيين صنف البرنامج النصي
 	Set Tween Easing	تعيين تسارع التحريك البيني وتباطئه
 	Settings…	الإعدادات…
 	Shadow	الظل
@@ -890,6 +912,9 @@
 	the browser's storage for this site is full (documents with large images or sounds may not fit)	تخزين المتصفح لهذا الموقع ممتلئ (قد لا تتسع المستندات ذات الصور أو الأصوات الكبيرة)
 	The camera layer is hidden: the movie shows the stage as it is.	طبقة الكاميرا مخفية: يعرض الفيلم المسرح كما هو.
 	The camera moves over {keyframes}. Removing it removes those moves, and the movie shows the stage as it is. You can undo this.	تتحرك الكاميرا عبر {keyframes}. إزالتها تزيل هذه الحركات، ويعرض الفيلم المسرح كما هو. يمكنك التراجع عن هذا.
+	The class scripts create this symbol by (its linkage), extending {base}. Kept with the document; scripts don't run yet	الصنف الذي تُنشئ به البرامج النصية هذا الرمز (ربطه)، ويمتد من {base}. يُحفظ مع المستند؛ والبرامج النصية لا تعمل بعد
+	The class scripts create this symbol by (its linkage). Kept with the document; scripts don't run yet	الصنف الذي تُنشئ به البرامج النصية هذا الرمز (ربطه). يُحفظ مع المستند؛ والبرامج النصية لا تعمل بعد
+	The class scripts run the main timeline as (the document class). Kept with the document; scripts don't run yet	الصنف الذي تشغّل به البرامج النصية المخطط الزمني الرئيسي (صنف المستند). يُحفظ مع المستند؛ والبرامج النصية لا تعمل بعد
 	the command palette	لوحة الأوامر
 	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	يعرض خط البيانات الأرقام والرمز الزمني والمساطر والاختصارات، ولا تُدرج إلا العائلات ثابتة العرض كي تبقى الأرقام متحاذية.
 	The direction the shadow falls (the light comes from the opposite side)	اتجاه سقوط الظل (يأتي الضوء من الجهة المقابلة)
@@ -966,6 +991,7 @@
 	What runs when the playhead enters this keyframe ({key})	ما يعمل عندما يدخل رأس التشغيل هذا الإطار الرئيسي ({key})
 	What the selected button or movie clip does on clicks and the pointer	ما يفعله الزر أو مقطع الفيلم المحدّد عند النقر وحركة المؤشر
 	Where AniCraft's documents and files are on this computer	أين توجد مستندات AniCraft وملفاته على هذا الحاسوب
+	Where the motion starts. Changing it moves the whole path, and the object with it; the timing stays.	حيث تبدأ الحركة. تغييرها ينقل المسار كله والكائن معه؛ ويبقى التوقيت.
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	أيهما يأتي أولًا. 0 تغييرات: حسب الوقت فقط. تُكتب النسخ في الخلفية، فلا ينتظر الرسم أبدًا.
 	Width at Point	العرض عند النقطة
 	Wrap	التفاف الأسطر
@@ -1009,6 +1035,8 @@
 	{name} (movie clip)	{name} (مقطع فيلم)
 	{name} (scene {n} of {of})	{name} (المشهد {n} من {of})
 	{name} ({kind})	{name} ({kind})
+	{name} ({secs} s) is in the Library. Select a keyframe and pick it under Sound in Properties.	{name} ({secs} ث) في المكتبة. حدّد إطارًا رئيسيًا واختره تحت الصوت في الخصائص.
+	{name} ({secs} s) is on a new layer from frame {frame}. Set its sync in Properties. Ctrl+Z to undo.	{name} ({secs} ث) على طبقة جديدة من الإطار {frame}. عيّن مزامنته في الخصائص. Ctrl+Z للتراجع.
 	{name} folder row	صف المجلد {name}
 	{name} · {kind}	{name} · {kind}
 	{name} — Ctrl+Z to undo	{name} — Ctrl+Z للتراجع
@@ -1045,6 +1073,7 @@
 @plural	{n} frame|{n} frames	{n} إطار|{n} إطار|{n} إطاران|{n} إطارات|{n} إطارًا|{n} إطار
 @plural	{n} h ago|{n} h ago	منذ {n} ساعة|منذ {n} ساعة|منذ {n} ساعتين|منذ {n} ساعات|منذ {n} ساعةً|منذ {n} ساعة
 @plural	{n} item|{n} items	{n} عنصر|{n} عنصر|{n} عنصران|{n} عناصر|{n} عنصرًا|{n} عنصر
+@plural	{n} kept frame script doesn't run yet|{n} kept frame scripts don't run yet	{n} برنامج نصي محفوظ للإطارات لا يعمل بعد|{n} برنامج نصي محفوظ للإطارات لا يعمل بعد|{n} برنامجان نصيان محفوظان للإطارات لا يعملان بعد|{n} برامج نصية محفوظة للإطارات لا تعمل بعد|{n} برنامجًا نصيًا محفوظًا للإطارات لا يعمل بعد|{n} برنامج نصي محفوظ للإطارات لا يعمل بعد
 @plural	{n} key frame|{n} key frames	{n} إطار رئيسي|{n} إطار رئيسي|{n} إطاران رئيسيان|{n} إطارات رئيسية|{n} إطارًا رئيسيًا|{n} إطار رئيسي
 @plural	{n} keyframe|{n} keyframes	{n} إطار رئيسي|{n} إطار رئيسي|{n} إطاران رئيسيان|{n} إطارات رئيسية|{n} إطارًا رئيسيًا|{n} إطار رئيسي
 @plural	{n} layer|{n} layers	{n} طبقة|{n} طبقة|{n} طبقتان|{n} طبقات|{n} طبقةً|{n} طبقة
