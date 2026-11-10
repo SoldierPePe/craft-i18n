@@ -242,6 +242,8 @@
 	Exported {path}	تم تصدير {path}
 	Exported {path} ({frames} frames, {kb} KB): open it in a web browser.	تم تصدير {path} ({frames} إطار، {kb} كيلوبايت): افتحه في متصفح ويب.
 	Exported {path} ({frames}, {layers}).{report}	تم تصدير {path} ({frames}، {layers}).{report}
+	Exported {path} ({secs} s).	تم تصدير {path} ({secs} ث).
+	Exported {path} ({secs} s). No sounds play in that range, so the file is silent.	تم تصدير {path} ({secs} ث). لا يُشغَّل أي صوت في هذا النطاق، لذا الملف صامت.
 	Extra start gap	فجوة بداية إضافية
 	Eyedropper	القطّارة
 	Faucet	الصنبور
@@ -533,6 +535,7 @@
 	Save document as	حفظ المستند باسم
 	Saved documents and exports go where you type in the save box; a plain name lands in the folder AniCraft was started from.	تُحفظ المستندات والصادرات حيث تكتب في مربع الحفظ، والاسم المجرد يُحفظ في المجلد الذي شُغّل منه AniCraft.
 	Saved {path}	تم حفظ {path}
+	Saved {path} to your downloads	تم حفظ {path} في التنزيلات
 	Scanning installed fonts…	جارٍ فحص الخطوط المثبّتة…
 	Scene	المشهد
 	Scene “{name}” has {keyframes} with {elements}. You can undo this.	في المشهد «{name}» {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
@@ -601,6 +604,7 @@
 	the shortcut editor	محرر الاختصارات
 	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	يترك المخطط الزمني دائمًا مساحة قبل الإطار 1 لرأس التشغيل، وهذا الخيار يضيف المزيد. تبقى المساحة نفسها عند أي تكبير.
 	this action	هذا الإجراء
+	this browser's storage for this site	تخزين هذا المتصفح لهذا الموقع
 	This cannot be undone.	لا يمكن التراجع عن هذا.
 	Time at the playhead	الوقت عند رأس التشغيل
 	Timeline	المخطط الزمني
