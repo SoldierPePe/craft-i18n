@@ -42,10 +42,13 @@
 	Add colour stop	إضافة نقطة لون
 	Add event	إضافة حدث
 	Add filter	إضافة مرشح
+	Add Motion Path Point	إضافة نقطة لمسار الحركة
 	Add Shape Hint	إضافة تلميح شكل
 	Add to / remove from selection	الإضافة إلى التحديد / الإزالة منه
 	Added a camera. Drag on the stage to pan it, turn it with the round handle, zoom with the wheel. Ctrl+Z to undo.	أُضيفت كاميرا. اسحب على المسرح لتحريكها، ودوّرها بالمقبض الدائري، وكبّر بالعجلة. Ctrl+Z للتراجع.
+	Added a point to the motion path. {undo} to undo.	أُضيفت نقطة إلى مسار الحركة. {undo} للتراجع.
 	Added a point. Ctrl+Z to undo.	أُضيفت نقطة. Ctrl+Z للتراجع.
+	Added a point. {undo} to undo.	أُضيفت نقطة. {undo} للتراجع.
 	Added shape hint {letter}: drag it onto an edge here, then onto the matching edge on the tween's last keyframe.	أُضيف تلميح الشكل {letter}: اسحبه إلى حافة هنا، ثم إلى الحافة المقابلة في آخر إطار رئيسي من التحريك البيني.
 	Adds it at the stage centre (or double-click an item)	يضيفه في وسط المسرح (أو انقر نقرًا مزدوجًا على عنصر)
 	Adjust Color	ضبط اللون
@@ -154,11 +157,11 @@
 	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	انقر على مفتاح لتغييره أو على + لإضافة واحد، وانقر بالزر الأيمن على مفتاح لإزالته. تُحفظ التغييرات أولًا بأول.
 	Click a shape to give it the current stroke colour and width.	انقر على شكل لتعطيه لون الحد وسُمكه الحاليين.
 	Click a shape to give it this line	انقر على شكل لتعطيه هذا الخط
-	Click a shape to show its points. Drag points or handles to reshape (Shift adds to the point selection, drag on empty space to marquee points). Double-click an edge to add a point; Delete removes points. Right-click to make a point smooth or a corner.	انقر على شكل لإظهار نقاطه. اسحب النقاط أو المقابض لإعادة التشكيل (Shift يضيف إلى تحديد النقاط، والسحب في مساحة فارغة يحدد النقاط بمستطيل). انقر نقرًا مزدوجًا على حافة لإضافة نقطة، وDelete يزيل النقاط. انقر بالزر الأيمن لجعل النقطة ناعمة أو زاوية.
+	Click a shape to show its points. Drag points or handles to reshape (Shift adds to the point selection, drag on empty space to marquee points). Double-click an edge to add a point; Delete removes points. Right-click to make a point smooth or a corner. A motion path's points edit the same way (its ends stay).	انقر على شكل لإظهار نقاطه. اسحب النقاط أو المقابض لإعادة التشكيل (Shift يضيف إلى تحديد النقاط، والسحب في مساحة فارغة يحدد النقاط بمستطيل). انقر نقرًا مزدوجًا على حافة لإضافة نقطة، وDelete يزيل النقاط. انقر بالزر الأيمن لجعل النقطة ناعمة أو زاوية. وتُحرَّر نقاط مسار الحركة بالطريقة نفسها (يبقى طرفاه).
 	Click inside an outline to fill it (on the layer's lines), or on a fill to recolour it. The gap size closes small openings.	انقر داخل حدود مغلقة لتعبئتها (على خطوط الطبقة)، أو على تعبئة لتغيير لونها. حجم الفجوة يغلق الفتحات الصغيرة.
 	Click to add a colour stop	انقر لإضافة نقطة لون
 	Click to change · right-click to remove	انقر للتغيير · انقر بالزر الأيمن للإزالة
-	Click to place corner points, drag to pull smooth handles (Alt moves one handle). Click the first point to close; Enter, Esc or a click on the last point finishes. Backspace removes the last point.	انقر لوضع نقاط زاوية، واسحب لسحب مقابض ناعمة (Alt يحرّك مقبضًا واحدًا). انقر على النقطة الأولى للإغلاق، وEnter أو Esc أو النقر على النقطة الأخيرة ينهي الرسم. Backspace يزيل آخر نقطة.
+	Click to place corner points, drag to pull smooth handles (Alt moves one handle). Click the first point to close; Enter, Esc or a click on the last point finishes. Backspace removes the last point. Alt-click a selected shape or a motion path to add a point to it.	انقر لوضع نقاط زاوية، واسحب لسحب مقابض ناعمة (Alt يحرّك مقبضًا واحدًا). انقر على النقطة الأولى للإغلاق، وEnter أو Esc أو النقر على النقطة الأخيرة ينهي الرسم. Backspace يزيل آخر نقطة. انقر مع Alt على شكل محدّد أو على مسار حركة لإضافة نقطة إليه.
 	Click to select, drag to move, drag on empty space to marquee-select. Shift adds to the selection.	انقر للتحديد، واسحب للنقل، واسحب في مساحة فارغة للتحديد بمستطيل. Shift يضيف إلى التحديد.
 	Click to type new text, or click text to edit it. Esc or a click elsewhere finishes. The options set the font, size and colour; double-click text with the Selection tool to edit it too.	انقر لكتابة نص جديد، أو انقر على نص لتحريره. Esc أو النقر في مكان آخر ينهي الكتابة. تحدد الخيارات الخط والحجم واللون، ويمكنك أيضًا تحرير النص بالنقر المزدوج عليه بأداة التحديد.
 	Click to zoom in, Alt-click to zoom out. Ctrl+wheel zooms anywhere.	انقر للتكبير، وAlt مع النقر للتصغير. Ctrl مع عجلة الفأرة يكبّر في أي مكان.
@@ -177,6 +180,7 @@
 	Contrast	التباين
 	Control	التحكم
 	Convert Anchor Point	تحويل نقطة الارتكاز
+	Convert Motion Path Point	تحويل نقطة مسار الحركة
 	Convert to Symbol	تحويل إلى رمز
 	Convert to symbol — name	تحويل إلى رمز — الاسم
 	Convert to Symbol…	تحويل إلى رمز…
@@ -211,7 +215,9 @@
 	Delete folder?	حذف المجلد؟
 	Delete layer	حذف الطبقة
 	Delete layer?	حذف الطبقة؟
+	Delete Motion Path Points	حذف نقاط مسار الحركة
 	Delete Point	حذف النقطة
+	Delete Points	حذف النقاط
 	Delete Scene	حذف المشهد
 	Delete scene?	حذف المشهد؟
 	Delete Sound	حذف الصوت
@@ -226,6 +232,8 @@
 	Deleted the fill. {undo} to undo.	حُذفت التعبئة. {undo} للتراجع.
 	Deleted the line. {undo} to undo.	حُذف الخط. {undo} للتراجع.
 	Deleted {elements} — Ctrl+Z to undo	تم حذف {elements} — Ctrl+Z للتراجع
+	Deleted {what} from the motion path. {undo} to undo.	حُذف {what} من مسار الحركة. {undo} للتراجع.
+	Deleted {what} from the motion path; its ends stay, as they are where the motion starts and ends. {undo} to undo.	حُذف {what} من مسار الحركة؛ ويبقى طرفاه لأنهما حيث تبدأ الحركة وتنتهي. {undo} للتراجع.
 	Depth	العمق
 	Desktop app (source)	تطبيق سطح المكتب (المصدر)
 	Difference	فرق
@@ -508,6 +516,8 @@
 	Morphs one shape into another	يحوّل شكلًا إلى شكل آخر
 	Motion	الحركة
 	Motion Editor	محرر الحركة
+	Motion path start X	بداية مسار الحركة X
+	Motion path start Y	بداية مسار الحركة Y
 	Motion Tween	تحريك بيني للحركة
 	Motion tween	تحريك بيني للحركة
 	Move Camera	تحريك الكاميرا
@@ -518,6 +528,7 @@
 	Move layer down	نقل الطبقة للأسفل
 	Move Layer Up	نقل الطبقة للأعلى
 	Move layer up	نقل الطبقة للأعلى
+	Move Motion Path	نقل مسار الحركة
 	Move Points	نقل النقاط
 	Move Scene Earlier	تقديم المشهد
 	Move Scene Later	تأخير المشهد
@@ -610,6 +621,7 @@
 	Paste in Center	لصق في المنتصف
 	Paste in Place	لصق في المكان نفسه
 	Pasted {what} — Ctrl+Z to undo	تم لصق {what} — Ctrl+Z للتراجع
+	Path start	بداية المسار
 	Pause	إيقاف مؤقت
 	Pen	القلم
 	Pen Path	مسار القلم
@@ -786,6 +798,7 @@
 	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	حدّد نسخة زر أو مقطع فيلم واحدة على المسرح لتعطيها أحداثًا (الرسم لا يمكن أن يملكها: عيّن نوع رمزه في الخصائص).
 	Select some artwork first	حدّد رسمًا أولًا
 	Select something to align	حدّد شيئًا للمحاذاة
+	Select the object to see its path on the stage. Drag the path to bend it and its ends to move them; {key} the path or the object to move the whole path. With the Subselection tool (A), drag points and handles, double-click the path to add a point (or Alt-click it with the Pen), Delete removes points, and right-click makes them smooth or corners.	حدّد الكائن لترى مساره على المسرح. اسحب المسار لثنيه، وطرفيه لنقلهما؛ و{key} على المسار أو الكائن ينقل المسار كله. وبأداة التحديد الفرعي (A) اسحب النقاط والمقابض، وانقر نقرًا مزدوجًا على المسار لإضافة نقطة (أو انقر عليه مع Alt بالقلم)، وDelete يزيل النقاط، والزر الأيمن يجعلها ناعمة أو زوايا.
 	Select the object to see its path on the stage. Drag the path to bend it, its ends to move them; the Subselection tool (A) edits its points and handles.	حدّد الكائن لترى مساره على المسرح. اسحب المسار لثنيه، وطرفيه لنقلهما؛ وأداة التحديد الفرعي (A) تحرّر نقاطه ومقابضه.
 	Send Backward	إرجاع للخلف
 	Set Actions	تعيين الإجراءات
@@ -837,6 +850,7 @@
 	Straight	مستقيم
 	Straighten	تقويم
 	Straighten motion path	تقويم مسار الحركة
+	Straighten Path	تقويم المسار
 	Stream	تدفق
 	Strength	الشدة
 	Stroke	الحد
@@ -871,6 +885,7 @@
 	the command palette	لوحة الأوامر
 	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	يعرض خط البيانات الأرقام والرمز الزمني والمساطر والاختصارات، ولا تُدرج إلا العائلات ثابتة العرض كي تبقى الأرقام متحاذية.
 	The direction the shadow falls (the light comes from the opposite side)	اتجاه سقوط الظل (يأتي الضوء من الجهة المقابلة)
+	The ends of a motion path are where the motion starts and ends: drag them to move them	طرفا مسار الحركة هما حيث تبدأ الحركة وتنتهي: اسحبهما لنقلهما
 	The file was saved after this copy, so it opens as a new document and Save asks for a name.	حُفظ الملف بعد هذه النسخة، لذا تُفتح كمستند جديد ويطلب «حفظ» اسمًا.
 	The GPU stage drew a picture the window can't show.	رسمت بطاقة الرسوميات صورة للمسرح لا تستطيع النافذة عرضها.
 	The graphics card can't draw the stage, so the CPU does: {reason}	لا تستطيع بطاقة الرسوميات رسم المسرح، فيرسمه المعالج: {reason}
@@ -1026,5 +1041,6 @@
 @plural	{n} mask|{n} masks	{n} قناع|{n} قناع|{n} قناعان|{n} أقنعة|{n} قناعًا|{n} قناع
 @plural	{n} min ago|{n} min ago	منذ {n} دقيقة|منذ {n} دقيقة|منذ {n} دقيقتين|منذ {n} دقائق|منذ {n} دقيقةً|منذ {n} دقيقة
 @plural	{n} plug-in installed|{n} plug-ins installed	{n} مكوّن إضافي مثبّت|{n} مكوّن إضافي مثبّت|{n} مكوّنان إضافيان مثبّتان|{n} مكوّنات إضافية مثبّتة|{n} مكوّنًا إضافيًا مثبّتًا|{n} مكوّن إضافي مثبّت
+@plural	{n} point|{n} points	{n} نقطة|{n} نقطة|{n} نقطتان|{n} نقاط|{n} نقطةً|{n} نقطة
 @plural	{n} scene|{n} scenes	{n} مشهد|{n} مشهد|{n} مشهدان|{n} مشاهد|{n} مشهدًا|{n} مشهد
 @plural	{n} shape|{n} shapes	{n} شكل|{n} شكل|{n} شكلان|{n} أشكال|{n} شكلًا|{n} شكل
