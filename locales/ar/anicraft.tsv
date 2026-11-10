@@ -14,26 +14,42 @@
 	+ Layer	+ طبقة
 	1 minute	دقيقة واحدة
 	10 minutes	10 دقائق
+	100 %: as wide as it is tall. Less flattens the tip, for calligraphic strokes	100 %: عرضه مثل ارتفاعه. الأقل يسطّح الرأس، لضربات خطية
 	2 minutes	دقيقتان
 	30 seconds	30 ثانية
 	5 minutes	5 دقائق
+	A frame script: it runs while the movie plays. Pick it for a keyframe in the Actions panel (F9)	برنامج نصي للإطار: يعمل أثناء تشغيل الفيلم. اختره لإطار رئيسي في لوحة الإجراءات (F9)
+	A list of actions, in order	قائمة إجراءات بالترتيب
 	A recovery copy of your unsaved work. If AniCraft closes unexpectedly, the next start offers it back.	نسخة استعادة من عملك غير المحفوظ. إذا أُغلق AniCraft فجأة، يعرضها عليك في التشغيل التالي.
+	A round eraser	ممحاة دائرية
+	A round or oval tip	رأس دائري أو بيضوي
+	A square eraser	ممحاة مربعة
+	A square or flat tip	رأس مربع أو مسطّح
 	About AniCraft	حول AniCraft
 	Actions Panel	لوحة الإجراءات
+	Actions…	الإجراءات…
 	Actual size (100%)	الحجم الفعلي (100%)
 	Add a shortcut	إضافة اختصار
 	Add a shortcut for {action}	إضافة اختصار لـ {action}
+	Add a {property} keyframe at frame {frame}	إضافة إطار رئيسي لـ {property} في الإطار {frame}
+	Add action	إضافة إجراء
 	Add Anchor Point	إضافة نقطة ارتكاز
 	Add another shortcut	إضافة اختصار آخر
 	Add another shortcut for {action}	إضافة اختصار آخر لـ {action}
 	Add Camera	إضافة كاميرا
+	Add camera	إضافة كاميرا
 	Add Classic Motion Guide	إضافة دليل حركة كلاسيكي
+	Add colour stop	إضافة نقطة لون
+	Add event	إضافة حدث
+	Add filter	إضافة مرشح
 	Add Shape Hint	إضافة تلميح شكل
 	Add to / remove from selection	الإضافة إلى التحديد / الإزالة منه
 	Added a camera. Drag on the stage to pan it, turn it with the round handle, zoom with the wheel. Ctrl+Z to undo.	أُضيفت كاميرا. اسحب على المسرح لتحريكها، ودوّرها بالمقبض الدائري، وكبّر بالعجلة. Ctrl+Z للتراجع.
 	Added a point. Ctrl+Z to undo.	أُضيفت نقطة. Ctrl+Z للتراجع.
 	Added shape hint {letter}: drag it onto an edge here, then onto the matching edge on the tween's last keyframe.	أُضيف تلميح الشكل {letter}: اسحبه إلى حافة هنا، ثم إلى الحافة المقابلة في آخر إطار رئيسي من التحريك البيني.
 	Adds it at the stage centre (or double-click an item)	يضيفه في وسط المسرح (أو انقر نقرًا مزدوجًا على عنصر)
+	Adjust Color	ضبط اللون
+	Adjust colour	ضبط اللون
 	Agent / contributor guide	دليل الوكلاء والمساهمين
 	Align centre	توسيط
 	Align to Stage On / Off	المحاذاة إلى المسرح تشغيل / إيقاف
@@ -44,6 +60,8 @@
 	Also morphs one shape into another	يحوّل أيضًا شكلًا إلى شكل آخر
 	Always render off the UI thread. The window never waits; the picture can trail by a frame.	التصيير دائمًا خارج خيط الواجهة. لا تنتظر النافذة أبدًا، وقد تتأخر الصورة بإطار واحد.
 	An action can have up to {n} keys.	يمكن أن يكون للإجراء الواحد حتى {n} من المفاتيح.
+	An entry point of a frame-script plug-in (WebAssembly)	نقطة دخول لمكوّن إضافي للبرامج النصية للإطارات (WebAssembly)
+	Angle 	الزاوية 
 	AniCraft didn't close properly last time. These documents had changes that weren't saved:	لم يُغلق AniCraft بشكل سليم في المرة الأخيرة. كانت في هذه المستندات تغييرات لم تُحفظ:
 	AniCraft didn't close properly last time. This document had changes that weren't saved:	لم يُغلق AniCraft بشكل سليم في المرة الأخيرة. كانت في هذا المستند تغييرات لم تُحفظ:
 	AniCraft document	مستند AniCraft
@@ -51,6 +69,7 @@
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	المتغير ANICRAFT_STAGE_RENDERER مضبوط، وهو يتقدّم على هذا الاختيار.
 	Animate each property on its own curve	تحريك كل خاصية على منحناها الخاص
 	Animate this span's object property by property	تحريك كائن هذا المقطع خاصيةً خاصية
+	Animate this span's object property by property (edit the curves in the Motion Editor)	تحريك كائن هذا المقطع خاصيةً خاصية (حرّر المنحنيات في محرر الحركة)
 	Animated GIF	GIF متحرك
 	Applied the picked {what} to {shapes}. {undo} to undo.	طُبّق ما التُقط ({what}) على {shapes}. {undo} للتراجع.
 	Apply Style	تطبيق النمط
@@ -59,6 +78,7 @@
 	Auto follows the system's language. Document text, file names and command ids stay as they are.	«تلقائي» يتبع لغة النظام. تبقى نصوص المستند وأسماء الملفات ومعرّفات الأوامر كما هي.
 	Autosave	الحفظ التلقائي
 	Autosave after this many changes	الحفظ التلقائي بعد هذا العدد من التغييرات
+	Autosave every	الحفظ التلقائي كل
 	Autosave failed: {reason}. Save your work to be safe; AniCraft will keep trying.	فشل الحفظ التلقائي: {reason}. احفظ عملك احتياطًا، وسيواصل AniCraft المحاولة.
 	Autosave is off on this system, so there is nothing to recover	الحفظ التلقائي متوقف على هذا النظام، فلا يوجد ما يُستعاد
 	Autosave is off: this system has no settings folder	الحفظ التلقائي متوقف: لا يوجد مجلد إعدادات على هذا النظام
@@ -68,8 +88,15 @@
 	Autosaved {when} · {frames}	حُفظ تلقائيًا {when} · {frames}
 	Autosaved {when} · {frames} · {scenes}	حُفظ تلقائيًا {when} · {frames} · {scenes}
 	Back to the default ({keys})	العودة إلى الافتراضي ({keys})
+	Back to the stage as it is: centred, 100 %, no turn, no tint	العودة إلى المسرح كما هو: في المنتصف، 100 %، بلا تدوير، بلا صبغة
+	Back to the straight path the X and Y curves trace	العودة إلى المسار المستقيم الذي يرسمه منحنيا X وY
 	Background	في الخلفية
+	Bevel	شطف
+	Bevel highlight colour	لون إضاءة الشطف
+	Bevel offset	إزاحة الشطف
+	Bevel shadow colour	لون ظل الشطف
 	Bezier({curve})	بيزيه({curve})
+	Bitmap fill	تعبئة صورة نقطية
 	bitmap fill	تعبئة الصورة النقطية
 	Bitmap · {w}×{h}	صورة نقطية · {w}×{h}
 	Blank	فارغ
@@ -77,17 +104,34 @@
 	Blending	المزج
 	Blur	التمويه
 	Break Apart	تفكيك
+	Brightness	السطوع
 	Bring Forward	تقديم للأمام
 	Brush	الفرشاة
+	Brush angle	زاوية الفرشاة
+	Brush roundness	استدارة الفرشاة
+	Brush size	حجم الفرشاة
+	Brush size ({keys})	حجم الفرشاة ({keys})
 	Brush Size Down	تصغير حجم الفرشاة
 	Brush Size Up	تكبير حجم الفرشاة
 	Brush size {size} px	حجم الفرشاة {size} بكسل
+	Brush smoothing	تنعيم الفرشاة
 	Brush Stroke	ضربة فرشاة
+	Bulge	انتفاخ
 	Button	زر
+	Button: {name}	زر: {name}
+	by {author} · {id} · {size}	من {author} · {id} · {size}
 	cache {n} fr · {mb} MB · {hit}% hit	الذاكرة المؤقتة {n} إطار · {mb} ميغابايت · نسبة الإصابة {hit}%
 	Camera	الكاميرا
 	Camera Info	معلومات الكاميرا
+	camera layer	طبقة كاميرا
+	Camera rotation	تدوير الكاميرا
 	Camera Tint	صبغة الكاميرا
+	Camera tint amount	مقدار صبغة الكاميرا
+	Camera tint colour	لون صبغة الكاميرا
+	Camera view	منظر الكاميرا
+	Camera X	الكاميرا X
+	Camera Y	الكاميرا Y
+	Camera zoom	تكبير الكاميرا
 	Cancelled	أُلغي
 	cancelling	الإلغاء
 	Centre	وسط
@@ -103,6 +147,7 @@
 	Clear Keyframes	مسح الإطارات الرئيسية
 	Clear keyframes?	مسح الإطارات الرئيسية؟
 	Cleared {keyframes} — Ctrl+Z to undo	تم مسح {keyframes} — Ctrl+Z للتراجع
+	Clears every visible, unlocked layer at this frame, as double-clicking the Eraser tool does. You can undo it	يمسح كل طبقة ظاهرة غير مقفلة في هذا الإطار، مثل النقر المزدوج على أداة الممحاة. يمكنك التراجع عنه
 	Click	النقر
 	Click a fill or an enclosed area to pour it	انقر على تعبئة أو منطقة مغلقة لسكبها
 	Click a fill to pick its colour, gradient or bitmap (then pour it with the Paint Bucket), or a line to pick its colour, width and profile (then apply it with the Ink Bottle). With shapes selected, the picked style goes onto them. Shift-click picks into the other swatch only.	انقر على تعبئة لالتقاط لونها أو تدرّجها أو صورتها النقطية (ثم اسكبها بدلو الطلاء)، أو على خط لالتقاط لونه وسُمكه ومقطعه الجانبي (ثم طبّقه بزجاجة الحبر). وإذا كانت هناك أشكال محدّدة، يُطبَّق النمط الملتقط عليها. النقر مع Shift يلتقط إلى العيّنة الأخرى فقط.
@@ -111,6 +156,7 @@
 	Click a shape to give it this line	انقر على شكل لتعطيه هذا الخط
 	Click a shape to show its points. Drag points or handles to reshape (Shift adds to the point selection, drag on empty space to marquee points). Double-click an edge to add a point; Delete removes points. Right-click to make a point smooth or a corner.	انقر على شكل لإظهار نقاطه. اسحب النقاط أو المقابض لإعادة التشكيل (Shift يضيف إلى تحديد النقاط، والسحب في مساحة فارغة يحدد النقاط بمستطيل). انقر نقرًا مزدوجًا على حافة لإضافة نقطة، وDelete يزيل النقاط. انقر بالزر الأيمن لجعل النقطة ناعمة أو زاوية.
 	Click inside an outline to fill it (on the layer's lines), or on a fill to recolour it. The gap size closes small openings.	انقر داخل حدود مغلقة لتعبئتها (على خطوط الطبقة)، أو على تعبئة لتغيير لونها. حجم الفجوة يغلق الفتحات الصغيرة.
+	Click to add a colour stop	انقر لإضافة نقطة لون
 	Click to change · right-click to remove	انقر للتغيير · انقر بالزر الأيمن للإزالة
 	Click to place corner points, drag to pull smooth handles (Alt moves one handle). Click the first point to close; Enter, Esc or a click on the last point finishes. Backspace removes the last point.	انقر لوضع نقاط زاوية، واسحب لسحب مقابض ناعمة (Alt يحرّك مقبضًا واحدًا). انقر على النقطة الأولى للإغلاق، وEnter أو Esc أو النقر على النقطة الأخيرة ينهي الرسم. Backspace يزيل آخر نقطة.
 	Click to select, drag to move, drag on empty space to marquee-select. Shift adds to the selection.	انقر للتحديد، واسحب للنقل، واسحب في مساحة فارغة للتحديد بمستطيل. Shift يضيف إلى التحديد.
@@ -120,6 +166,7 @@
 	Close large gaps	إغلاق الفجوات الكبيرة
 	Close medium gaps	إغلاق الفجوات المتوسطة
 	Close small gaps	إغلاق الفجوات الصغيرة
+	Colour stop	نقطة اللون
 	Colours	الألوان
 	Command palette	لوحة الأوامر
 	Command Palette…	لوحة الأوامر…
@@ -127,6 +174,7 @@
 	Confirmations	التأكيدات
 	Constrain shape / 45° line	تقييد الشكل / خط بزاوية 45°
 	Context actions	إجراءات السياق
+	Contrast	التباين
 	Control	التحكم
 	Convert Anchor Point	تحويل نقطة الارتكاز
 	Convert to Symbol	تحويل إلى رمز
@@ -134,11 +182,14 @@
 	Convert to Symbol…	تحويل إلى رمز…
 	Copied {what}	تم نسخ {what}
 	Copy Frames	نسخ الإطارات
+	Corner radius	نصف قطر الزاوية
 	Corners	الزوايا
 	Could not open {name}: {reason}	تعذّر فتح {name}: {reason}
 	could not open {path}: {error}	تعذّر فتح {path}: {error}
 	Could not restore {name}: {reason}	تعذّرت استعادة {name}: {reason}
 	Could not save preferences: {error}	تعذّر حفظ التفضيلات: {error}
+	CPU (GPU unavailable)	المعالج (بطاقة الرسوميات غير متاحة)
+	CPU for {why}	المعالج بسبب {why}
 	Create a classic tween to the next keyframe	إنشاء تحريك بيني كلاسيكي حتى الإطار الرئيسي التالي
 	Create Classic Tween	إنشاء تحريك بيني كلاسيكي
 	Create Motion Tween	إنشاء تحريك بيني للحركة
@@ -147,6 +198,7 @@
 	Create tween	إنشاء تحريك بيني
 	Current document	المستند الحالي
 	Current frame	الإطار الحالي
+	Custom ({n} points)	مخصّص ({n} نقاط)
 	Cut Frames	قص الإطارات
 	Cut {what} — Ctrl+Z to undo	تم قص {what} — Ctrl+Z للتراجع
 	Darken	تعتيم
@@ -166,6 +218,7 @@
 	Delete sound?	حذف الصوت؟
 	Delete the active layer	حذف الطبقة النشطة
 	Delete this autosaved copy	حذف هذه النسخة المحفوظة تلقائيًا
+	Delete whole fills and lines	حذف التعبئات والخطوط كاملة
 	Delete Width Point	حذف نقطة العرض
 	Deleted layer — Ctrl+Z to undo	تم حذف الطبقة — Ctrl+Z للتراجع
 	Deleted scene — Ctrl+Z to undo	تم حذف المشهد — Ctrl+Z للتراجع
@@ -184,6 +237,7 @@
 	Discarded the autosaved copy	تم تجاهل النسخة المحفوظة تلقائيًا
 	Discarding deletes this work for good. This cannot be undone.	التجاهل يحذف هذا العمل نهائيًا. لا يمكن التراجع عن هذا.
 	Discard…	تجاهل…
+	Distance 	المسافة 
 	Distribute Horizontal Centers	توزيع المراكز أفقيًا
 	Distribute Vertical Centers	توزيع المراكز عموديًا
 	Document Info	معلومات المستند
@@ -193,6 +247,7 @@
 	Don't close gaps	عدم إغلاق الفجوات
 	Don't Save	عدم الحفظ
 	Drag a corner or edge to scale (Shift keeps proportions, Alt scales from the centre), just outside a corner to rotate (Shift snaps 15°), inside to move.	اسحب زاوية أو حافة للتحجيم (Shift يحافظ على النسب، وAlt يحجّم من المركز)، أو خارج الزاوية مباشرة للتدوير (Shift يلتقط كل 15°)، أو من الداخل للنقل.
+	Drag a key up or down to change it, or a handle to shape the ease. Double-click to add a key.	اسحب مفتاحًا للأعلى أو للأسفل لتغييره، أو مقبضًا لتشكيل التسارع والتباطؤ. انقر نقرًا مزدوجًا لإضافة مفتاح.
 	Drag from the centre to draw a star.	اسحب من المركز لرسم نجمة.
 	Drag on the stage to pan the camera, drag the round handle to turn it, and use the wheel to zoom (each drag is one undo step). Picking the tool adds a camera if the scene has none.	اسحب على المسرح لتحريك الكاميرا، واسحب المقبض الدائري لتدويرها، واستخدم العجلة للتكبير (كل سحبة خطوة تراجع واحدة). اختيار الأداة يضيف كاميرا إذا لم يكن في المشهد كاميرا.
 	Drag to draw a line. Shift snaps to 45°.	اسحب لرسم خط. Shift يلتقط بزوايا 45°.
@@ -205,6 +260,7 @@
 	Drawing	الرسم
 	Drawing on {adapter}, straight into the window.	يجري الرسم على {adapter} مباشرةً في النافذة.
 	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	يجري الرسم على {adapter} ثم يُنسخ إلى النافذة (أبطأ: لا يمكن مشاركة جهاز الرسوميات الخاص بالنافذة).
+	Drop Shadow	ظل مُسقَط
 	Duplicate Scene	تكرار المشهد
 	early alpha	ألفا مبكرة
 	Ease	التسارع والتباطؤ
@@ -215,22 +271,42 @@
 	Ease out (cubic)	تباطؤ (تكعيبي)
 	Ease out (quad)	تباطؤ (تربيعي)
 	Easing	التسارع والتباطؤ
+	Edit actions	تحرير الإجراءات
+	Edit event	تحرير الحدث
 	Edit Motion Path	تحرير مسار الحركة
 	Edit Text	تحرير النص
 	Edit the property curves	تحرير منحنيات الخصائص
+	Edit the property curves and eases	تحرير منحنيات الخصائص وتسارعها وتباطئها
+	Edit what it does on clicks and the pointer ({key})	تحرير ما يفعله عند النقر وحركة المؤشر ({key})
 	Edits show immediately; heavy scenes render in the background with an outline preview.	تظهر التعديلات فورًا، والمشاهد الثقيلة تُصيَّر في الخلفية مع معاينة بالخطوط الخارجية.
 	Empty frame — press F7 for a blank keyframe	إطار فارغ — اضغط F7 لإطار رئيسي فارغ
 	Engine crates (source)	حزم المحرك (المصدر)
+	Enter applies · Esc cancels · one undo step	Enter للتطبيق · Esc للإلغاء · خطوة تراجع واحدة
 	Enter confirms · Esc cancels	Enter للتأكيد · Esc للإلغاء
 	Enter saves · Esc cancels	Enter للحفظ · Esc للإلغاء
 	Entry	المدخل
 	Erase Everything	مسح كل شيء
 	Erase everything?	مسح كل شيء؟
+	Erase Everything…	مسح كل شيء…
+	Erase Fills	مسح التعبئات
+	Erase Inside	المسح في الداخل
+	Erase Lines	مسح الخطوط
+	Erase mode	وضع المسح
+	Erase Normal	مسح عادي
+	Erase Selected Fills	مسح التعبئات المحدّدة
 	Erased everything at frame {frame} ({elements}). {key} to undo.	مُسح كل شيء في الإطار {frame} ({elements}). {key} للتراجع.
 	Erased. {undo} to undo.	تم المسح. {undo} للتراجع.
+	Eraser size	حجم الممحاة
+	Eraser size ({keys})	حجم الممحاة ({keys})
 	Eraser size {size} px	حجم الممحاة {size} بكسل
+	Erases fills only, leaving lines alone.	يمسح التعبئات فقط، ويترك الخطوط.
+	Erases lines and fills on the layer.	يمسح الخطوط والتعبئات في الطبقة.
+	Erases lines only, leaving fills alone.	يمسح الخطوط فقط، ويترك التعبئات.
+	Erases only inside the fill where the stroke starts.	يمسح فقط داخل التعبئة التي تبدأ منها الضربة.
+	Erases only the selected fills.	يمسح التعبئات المحدّدة فقط.
 	Esc cancels · click the red button to proceed	Esc للإلغاء · انقر الزر الأحمر للمتابعة
 	Essentials	الأساسيات
+	Event	حدث
 	Events	الأحداث
 	Every	كل
 	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	يُصيَّر كل تعديل قبل الإطار التالي. أقل تأخير، وقد يتقطع في المشاهد الثقيلة جدًا.
@@ -270,10 +346,17 @@
 	Fill on/off	التعبئة تشغيل/إيقاف
 	fill {color}	التعبئة {color}
 	Filled the area. Ctrl+Z to undo.	تمت تعبئة المنطقة. Ctrl+Z للتراجع.
+	Filter blur	تمويه المرشح
 	Filter by name or key…	تصفية حسب الاسم أو المفتاح…
+	Filter colour	لون المرشح
 	Filter fonts	تصفية الخطوط
 	Filter fonts…	تصفية الخطوط…
+	Filter offset	إزاحة المرشح
+	Filter options	خيارات المرشح
+	Filter quality	جودة المرشح
 	Filter shortcuts	تصفية الاختصارات
+	Filter strength	شدة المرشح
+	Filter type	نوع المرشح
 	Filters	المرشحات
 	First frame	الإطار الأول
 	First frame (Home)	الإطار الأول (Home)
@@ -283,9 +366,11 @@
 	Fit stage in window	ملاءمة المسرح للنافذة
 	Fits smooth curves to the stroke, keeping sharp corners.	يطابق الخط المرسوم بمنحنيات ناعمة مع الحفاظ على الزوايا الحادة.
 	fixed	ثابت
+	folder	مجلد
 	Folder · {what}	مجلد · {what}
 	Folder “{name}” holds {layers} with {elements} in {keyframes}. They are deleted with it. You can undo this.	يحوي المجلد «{name}» {layers} فيها {elements} ضمن {keyframes}. تُحذف معه. يمكنك التراجع عن هذا.
 	Folder “{name}” holds {layers}. They are deleted with it. You can undo this.	يحوي المجلد «{name}» {layers}. تُحذف معه. يمكنك التراجع عن هذا.
+	Folders and guide layers don't run actions. Pick another layer in the timeline.	المجلدات وطبقات الدليل لا تشغّل إجراءات. اختر طبقة أخرى في المخطط الزمني.
 	Folders hold layers, not frames. Hiding or locking the folder hides or locks everything in it; move layers in under it with Up and Down.	المجلدات تحوي طبقات لا إطارات. إخفاء المجلد أو قفله يخفي أو يقفل كل ما فيه، وانقل الطبقات إلى داخله بزرّي الأعلى والأسفل.
 	Follows the hand closely with little smoothing.	يتبع حركة اليد عن قرب مع قليل من التنعيم.
 	Font “{name}” is not installed; using the bundled font	الخط «{name}» غير مثبّت، يُستخدم الخط المرفق
@@ -293,28 +378,48 @@
 	Frame 0042 · 1.75 s · X 1280.5 Y 720.0 · Ctrl+Shift+S	الإطار 0042 · 1.75 ث · X 1280.5 Y 720.0 · Ctrl+Shift+S
 	Frame Label	تسمية الإطار
 	Frame label	تسمية الإطار
+	Frame labels survive frames being added or moved	تبقى تسميات الإطارات عند إضافة الإطارات أو نقلها
+	Frame number	رقم الإطار
 	Frame rate	معدل الإطارات
+	Frame rate, and the time the last picture took to draw	معدل الإطارات، والوقت الذي استغرقه رسم آخر صورة
+	Frame script	برنامج نصي للإطار
 	Frame script set — Ctrl+Z to undo	عُيّن البرنامج النصي للإطار — Ctrl+Z للتراجع
 	Frame width (Ctrl+wheel over the frames)	عرض الإطار (Ctrl مع العجلة فوق الإطارات)
 	Frame zoom	تكبير الإطارات
 	Frame zoom: frame width (Ctrl+wheel over the frames)	تكبير الإطارات: عرض الإطار (Ctrl مع العجلة فوق الإطارات)
+	Frame {frame}	الإطار {frame}
 	Frame {frame} is a one-frame keyframe on “{name}” with {elements}; removing it deletes that artwork. You can undo this.	الإطار {frame} إطار رئيسي بطول إطار واحد في «{name}» فيه {elements}، وإزالته تحذف ذلك الرسم. يمكنك التراجع عن هذا.
+	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	الإطار {frame} فارغ في هذه الطبقة. أضف إطارًا رئيسيًا فارغًا ({key}) لتعطيه إجراءات.
 	Frames of {name}	إطارات {name}
 	Free Transform	التحويل الحر
+	Full	كامل
 	Gap size	حجم الفجوة
+	Give every property's segment at this frame this ease	إعطاء مقطع كل خاصية في هذا الإطار هذا التسارع والتباطؤ
+	Glow	توهّج
+	Glow options	خيارات التوهّج
 	Go to	الانتقال إلى
 	Go to First Frame	الانتقال إلى الإطار الأول
 	Go to Frame	الانتقال إلى إطار
 	Go to Last Frame	الانتقال إلى الإطار الأخير
 	Go to Scene	الانتقال إلى مشهد
+	GPU starting	بطاقة الرسوميات تبدأ
 	gradient	تدرّج لوني
+	Gradient Bevel	شطف متدرّج
+	Gradient Glow	توهّج متدرّج
 	Graphic: {name}	رسم: {name}
 	Guide	دليل
+	guide layer	طبقة دليل
 	Guided	موجَّهة
 	Hand	اليد
 	Hard Light	ضوء ساطع
+	Hide object	إخفاء الكائن
+	Highlight	الإضاءة
 	Horizontal Center	المركز الأفقي
 	Hover a stroke to see its width points. Drag a point's handle to widen or narrow the stroke there (Alt: one side only), drag its dot to slide it along, or drag anywhere on the stroke to add a point. Click a point and press Delete to remove it.	مرّر المؤشر فوق حدّ لرؤية نقاط العرض فيه. اسحب مقبض نقطة لتوسيع الحد أو تضييقه عندها (Alt: جانب واحد فقط)، أو اسحب نقطتها لتزليقها على طوله، أو اسحب في أي مكان على الحد لإضافة نقطة. انقر على نقطة واضغط Delete لإزالتها.
+	How far behind the stage this layer is: when the camera pans, a deeper layer moves less (parallax). Negative is in front.	مدى بُعد هذه الطبقة خلف المسرح: عندما تتحرك الكاميرا، تتحرك الطبقة الأعمق أقل (اختلاف المنظر). السالب يعني أمام المسرح.
+	How much the stroke is smoothed: 0 follows the hand closely	مقدار تنعيم الضربة: 0 يتبع اليد عن قرب
+	How the stroke's width varies along it. Shape it by hand with the Width tool (U).	كيف يتغيّر سُمك الحد على طوله. شكّله يدويًا بأداة العرض (U).
+	Hue	تدرّج اللون
 	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	إذا أُغلق AniCraft فجأة، يعرض عليك التشغيل التالي استعادته. تبقى النسخ في مجلد الإعدادات ولا تحل محل ملفاتك أبدًا، وتُحذف عند الحفظ.
 	If you don't save, your changes since the last save will be lost.	إذا لم تحفظ، ستضيع تغييراتك منذ آخر حفظ.
 	Image added to the Library	أُضيفت الصورة إلى المكتبة
@@ -325,20 +430,26 @@
 	Import to Stage…	استيراد إلى المسرح…
 	Ink	الحبر
 	Ink Bottle	زجاجة الحبر
+	Inner	داخلي
 	Insert blank keyframe (F7)	إدراج إطار رئيسي فارغ (F7)
 	Insert frame (F5)	إدراج إطار (F5)
 	Insert keyframe (F6)	إدراج إطار رئيسي (F6)
+	Inside and outside the edge	داخل الحافة وخارجها
+	Inside the artwork's edge	داخل حافة الرسم
 	Install plug-in (.wasm file)	تثبيت مكوّن إضافي (ملف .wasm)
 	Install Plug-in…	تثبيت مكوّن إضافي…
 	Installed {name} {version} — find it in Commands › Plug-ins	ثُبّت {name} {version} — تجده في الأوامر › المكوّنات الإضافية
 	Instance	النسخة
 	Instance Name	اسم النسخة
 	Instance name	اسم النسخة
+	instance name	اسم النسخة
 	Inter + Hack (fallback)	Inter + Hack (احتياطي)
 	Inter + JetBrains Mono (craft-fonts, {kb} KB)	Inter + JetBrains Mono (craft-fonts، {kb} كيلوبايت)
 	Interface font	خط الواجهة
 	Interface scale	مقياس الواجهة
 	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	إنه مشروع مستقل، غير تابع لـ Adobe ولا معتمد منها. تحتفظ الخطوط المرفقة وحزم Rust بتراخيصها المتساهلة الخاصة بها، المذكورة أدناه.
+	it is larger than {n} MB	حجمه أكبر من {n} ميغابايت
+	Its actions run on the timeline it is on: “this” is the main timeline.	تعمل إجراءاته على المخطط الزمني الذي هو فيه: «this» هو المخطط الزمني الرئيسي.
 	Keep	إبقاء
 	Keep a recovery copy of unsaved work	الاحتفاظ بنسخة استعادة من العمل غير المحفوظ
 	Keeps step with the timeline it is on (looping options below)	يسير مع المخطط الزمني الذي يقع عليه (خيارات التكرار أدناه)
@@ -348,34 +459,46 @@
 	Keyframe	إطار رئيسي
 	Keyframe at {at} · {frames} · {elements}	إطار رئيسي عند {at} · {frames} · {elements}
 	Kind	النوع
+	Knockout	التأثير فقط
+	Last frame	الإطار الأخير
 	Last frame (End)	الإطار الأخير (End)
 	Later keeps them: File › Recover Autosaved Documents… brings this back.	«لاحقًا» يُبقيها: ملف › استعادة المستندات المحفوظة تلقائيًا… يعيد هذه النافذة.
+	layer	طبقة
 	Layer Depth	عمق الطبقة
+	Layer depth	عمق الطبقة
 	Layer names, menus and dialog text read like this.	هكذا تظهر أسماء الطبقات والقوائم ونصوص مربعات الحوار.
 	Layer Type	نوع الطبقة
 	Layer “{name}” has {keyframes} with {elements}. You can undo this.	في الطبقة «{name}» {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
+	Layers and frames	الطبقات والإطارات
 	Legal compliance	الامتثال القانوني
 	Letter spacing	تباعد الأحرف
 	Letters 	الأحرف 
 	Library	المكتبة
 	Licenses & Notices	التراخيص والإشعارات
 	Lighten	تفتيح
+	Like Event, but not if the sound is already playing	مثل الحدث، لكن ليس إذا كان الصوت يُشغَّل أصلًا
 	line {color}, {width} px	الخط {color}، {width} بكسل
+	Linear gradient	تدرّج خطي
 	linear gradient	التدرّج الخطي
 	Lines 	الأسطر 
+	Lines written	الأسطر المكتوبة
 	List Actions	سرد الإجراءات
+	Lock {name}	قفل {name}
 	Lock/Unlock Layer	قفل/إلغاء قفل الطبقة
 	Loop	تكرار
 	Loop Playback	تشغيل متكرر
 	Loop playback	تشغيل متكرر
 	Looping	التكرار
 	Lottie animation	رسوم Lottie متحركة
+	Main timeline frame	إطار المخطط الزمني الرئيسي
 	Make Corner	جعلها زاوية
 	Make Smooth	جعلها ناعمة
 	Manage Plug-ins…	إدارة المكوّنات الإضافية…
 	Mask	قناع
+	mask layer	طبقة قناع
 	Mask layer: its fills reveal the masked layers below. Lock it to hide its outline.	طبقة قناع: تعبئاتها تكشف الطبقات المقنَّعة تحتها. اقفلها لإخفاء حدودها.
 	Masked	مقنَّعة
+	masked layer	طبقة مقنَّعة
 	memory only	في الذاكرة فقط
 	Message	الرسالة
 	missing	مفقود
@@ -383,10 +506,12 @@
 	Mode	الوضع
 	Morph this keyframe's shapes into the next keyframe's	تحويل أشكال هذا الإطار الرئيسي إلى أشكال الإطار الرئيسي التالي
 	Morphs one shape into another	يحوّل شكلًا إلى شكل آخر
+	Motion	الحركة
 	Motion Editor	محرر الحركة
 	Motion Tween	تحريك بيني للحركة
 	Motion tween	تحريك بيني للحركة
 	Move Camera	تحريك الكاميرا
+	Move colour stop	نقل نقطة اللون
 	Move down	نقل للأسفل
 	Move Keyframes	نقل الإطارات الرئيسية
 	Move Layer Down	نقل الطبقة للأسفل
@@ -403,8 +528,12 @@
 	Moved {what} {layers} up — Ctrl+Z to undo	تم نقل {what} للأعلى بمقدار {layers} — Ctrl+Z للتراجع
 	Moves, scales, rotates and recolours	ينقل ويحجّم ويدوّر ويغيّر اللون
 	Movie clip	مقطع فيلم
+	movie clip	مقطع فيلم
+	Movie clip: {name}	مقطع فيلم: {name}
 	moving between fields	التنقل بين الحقول
+	Moving the object on the stage inside the span adds keys here	تحريك الكائن على المسرح داخل المقطع يضيف مفاتيح هنا
 	Multiply	ضرب
+	Name it to address it from actions (letters, digits and _). Its events work without a name.	سمّه لتخاطبه من الإجراءات (حروف وأرقام و _). أحداثه تعمل بلا اسم.
 	Never saved	لم يُحفظ قط
 	New document	مستند جديد
 	New Folder	مجلد جديد
@@ -413,16 +542,23 @@
 	New layer	طبقة جديدة
 	New Text	نص جديد
 	Next Frame	الإطار التالي
+	Next frame	الإطار التالي
 	Next frame (.)	الإطار التالي (.)
 	Next Panel	اللوحة التالية
 	Next Scene	المشهد التالي
+	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	لا توجد إجراءات بعد. أضف واحدًا: الإيقاف على إطار يُبقي الفيلم هناك، ثم يمكن لنقر زرٍّ أن يتابع.
 	No autosaved work to recover	لا يوجد عمل محفوظ تلقائيًا لاستعادته
 	No fonts found on this computer	لم يُعثر على خطوط في هذا الحاسوب
+	No frame labels yet: name a keyframe in Properties › Label	لا توجد تسميات إطارات بعد: سمِّ إطارًا رئيسيًا في الخصائص › التسمية
 	No frame-script plug-ins are installed (Commands › Install Plug-in…)	لا توجد مكوّنات إضافية مثبّتة للبرامج النصية للإطارات (الأوامر › تثبيت مكوّن إضافي…)
 	No matching commands	لا توجد أوامر مطابقة
 	No panel to move to yet	لا توجد لوحة للانتقال إليها بعد
+	No plug-ins installed yet	لا توجد مكوّنات إضافية مثبّتة بعد
+	No plug-ins installed yet. Plug-ins are WebAssembly (.wasm) files that add commands, such as generators and selection effects.	لا توجد مكوّنات إضافية مثبّتة بعد. المكوّنات الإضافية ملفات WebAssembly (.wasm) تضيف أوامر، مثل المولّدات وتأثيرات التحديد.
+	No property keyframes yet: move or change the object at a later frame to add some.	لا توجد إطارات رئيسية للخصائص بعد: حرّك الكائن أو غيّره في إطار لاحق لإضافة بعضها.
 	No sound: {reason}	لا صوت: {reason}
 	No symbols or images yet. Select artwork and press {symbol} to make a symbol, or import an image with {import}.	لا توجد رموز أو صور بعد. حدّد رسمًا واضغط {symbol} لصنع رمز، أو استورد صورة بـ {import}.
+	No symbols, images or sounds yet. Select artwork and press {symbol} to make a symbol, or import an image or a sound with {import}.	لا توجد رموز أو صور أو أصوات بعد. حدّد رسمًا واضغط {symbol} لصنع رمز، أو استورد صورة أو صوتًا بـ {import}.
 	none	لا شيء
 	Normal	عادي
 	not saved yet (File › Save)	لم يُحفظ بعد (ملف › حفظ)
@@ -434,7 +570,11 @@
 	Nudge selection 1 px	إزاحة التحديد 1 بكسل
 	Nudge selection 10 px	إزاحة التحديد 10 بكسل
 	Object Drawing	رسم الكائنات
+	Object drawing	رسم الكائنات
 	of {frames}	من {frames}
+	On {event}	عند {event}
+	On: a click deletes the whole fill or line under it. Off: drag to erase	تشغيل: النقرة تحذف التعبئة أو الخط تحتها كاملًا. إيقاف: اسحب للمسح
+	On: each shape is an object of its own. Off: shapes cut and merge with the shapes they touch ({key})	تشغيل: كل شكل كائن مستقل. إيقاف: تقطع الأشكال وتندمج مع الأشكال التي تلمسها ({key})
 	Onion Skin	قشرة البصل
 	Onion skin	قشرة البصل
 	Onion Skin On / Off	قشرة البصل تشغيل / إيقاف
@@ -451,8 +591,18 @@
 	Orient to Path	التوجّه مع المسار
 	Orient to path	التوجّه مع المسار
 	Other	أخرى
+	Outer	خارجي
 	Outline Layer	طبقة بالخطوط الخارجية
+	Outline {name}	عرض {name} بالخطوط الخارجية
+	Outside the artwork's edge	خارج حافة الرسم
+	Paint Behind	الطلاء في الخلف
 	Paint Bucket	دلو الطلاء
+	Paint Fills	طلاء التعبئات
+	Paint mode	وضع الطلاء
+	Paint Normal	طلاء عادي
+	Paints only empty areas, behind the lines and fills on the layer.	يطلي المناطق الفارغة فقط، خلف الخطوط والتعبئات في الطبقة.
+	Paints over fills and empty areas, leaving lines alone.	يطلي فوق التعبئات والمناطق الفارغة، ويترك الخطوط.
+	Paints over lines and fills on the layer.	يطلي فوق الخطوط والتعبئات في الطبقة.
 	Pan with any tool	تحريك العرض بأي أداة
 	Panels are docked: Tools, Stage, Timeline, Properties, Library	اللوحات مثبّتة: الأدوات، المسرح، المخطط الزمني، الخصائص، المكتبة
 	panning with any tool	تحريك العرض بأي أداة
@@ -460,13 +610,17 @@
 	Paste in Center	لصق في المنتصف
 	Paste in Place	لصق في المكان نفسه
 	Pasted {what} — Ctrl+Z to undo	تم لصق {what} — Ctrl+Z للتراجع
+	Pause	إيقاف مؤقت
 	Pen	القلم
 	Pen Path	مسار القلم
 	Pencil	قلم الرصاص
 	Performance & budgets	الأداء والميزانيات
+	Pick a key that has another key after it	اختر مفتاحًا بعده مفتاح آخر
 	Picked the {what}. {next}.	التُقط {what}. {next}.
+	Picked with the Eyedropper. It stays where it was on the stage (lock fill). Pick a colour to fill with a solid colour again.	التُقط بالقطّارة. يبقى حيث كان على المسرح (قفل التعبئة). اختر لونًا للتعبئة بلون صلب مجددًا.
 	Picked {color} into the fill colour.	التُقط {color} إلى لون التعبئة.
 	Picked {color} into the stroke colour.	التُقط {color} إلى لون الحد.
+	Pinch	انضغاط
 	Place Instance	وضع نسخة
 	Place on stage	وضع على المسرح
 	Place on timeline	وضع على المخطط الزمني
@@ -477,11 +631,15 @@
 	Play once	تشغيل مرة واحدة
 	Playhead (frame ruler)	رأس التشغيل (مسطرة الإطارات)
 	Playing without sound: {reason}	التشغيل بلا صوت: {reason}
+	Plays again and again: to the end of the movie (event) or of this span (stream)	يُشغَّل مرارًا: حتى نهاية الفيلم (حدث) أو نهاية هذا المقطع (تدفق)
+	Plays in full from this keyframe, independent of the timeline	يُشغَّل كاملًا من هذا الإطار الرئيسي، مستقلًا عن المخطط الزمني
 	Plays its own timeline on a loop, from when it appears	يشغّل مخططه الزمني الخاص بشكل متكرر، منذ ظهوره
 	Plays its {frames}-frame timeline on a loop from when it appears.	يشغّل مخططه الزمني ({frames} إطار) بشكل متكرر منذ ظهوره.
 	Plays the sound on its own	يشغّل الصوت وحده
 	Plug-in	المكوّن الإضافي
+	Plug-in · {by}	مكوّن إضافي · {by}
 	Plug-ins	المكوّنات الإضافية
+	Plug-ins run sandboxed: they can change the open document through AniCraft's commands, never your files.	تعمل المكوّنات الإضافية معزولة: يمكنها تغيير المستند المفتوح عبر أوامر AniCraft، ولا تلمس ملفاتك أبدًا.
 	Plug-ins: {reason}	المكوّنات الإضافية: {reason}
 	PNG image	صورة PNG
 	PNG sprite sheet	ورقة نقوش متحركة PNG
@@ -489,13 +647,19 @@
 	Pointer over	مرور المؤشر
 	Points	النقاط
 	PolyStar	مضلع/نجمة
+	Position X	الموضع X
+	Position Y	الموضع Y
 	Press	الضغط
 	Press keys…	اضغط المفاتيح…
 	Press the new keys for {action}. Esc cancels.	اضغط المفاتيح الجديدة لـ {action}. Esc للإلغاء.
+	Pressed and released on it	ضُغط عليه ثم أُفلت
+	Preview on the stage	المعاينة على المسرح
 	Preview Through Camera	المعاينة عبر الكاميرا
+	Preview through camera	المعاينة عبر الكاميرا
 	Preview through camera is on; add a camera (the camera button on the timeline, or the Camera tool) to look through it.	المعاينة عبر الكاميرا مفعّلة؛ أضف كاميرا (زر الكاميرا في المخطط الزمني، أو أداة الكاميرا) للنظر عبرها.
 	Previewing through the camera: artwork edits are paused. Turn off View › Preview Through Camera to edit.	المعاينة عبر الكاميرا: تعديل الرسم متوقف مؤقتًا. أوقف عرض › المعاينة عبر الكاميرا للتعديل.
 	Previous Frame	الإطار السابق
+	Previous frame	الإطار السابق
 	Previous frame (,)	الإطار السابق (,)
 	Previous Panel	اللوحة السابقة
 	Previous Scene	المشهد السابق
@@ -504,6 +668,7 @@
 	Project Files & Docs…	ملفات المشروع ووثائقه…
 	Project folder	مجلد المشروع
 	Property	الخاصية
+	Property curves of the motion tween at the playhead (double-click a motion span)	منحنيات خصائص التحريك البيني للحركة عند رأس التشغيل (انقر نقرًا مزدوجًا على مقطع حركة)
 	Property Ease	تسارع الخاصية وتباطؤها
 	Property ease	تسارع الخاصية وتباطؤها
 	Property Keyframe	إطار رئيسي للخاصية
@@ -513,6 +678,7 @@
 	Quit	إنهاء
 	Quit AniCraft	إنهاء AniCraft
 	quitting	الإنهاء
+	Radial gradient	تدرّج شعاعي
 	radial gradient	التدرّج الشعاعي
 	Recoloured the fill. Ctrl+Z to undo.	تم تغيير لون التعبئة. Ctrl+Z للتراجع.
 	Recover Autosaved Documents…	استعادة المستندات المحفوظة تلقائيًا…
@@ -522,7 +688,11 @@
 	Reload Plug-ins	إعادة تحميل المكوّنات الإضافية
 	Remove All Hints	إزالة كل التلميحات
 	Remove Camera	إزالة الكاميرا
+	Remove camera	إزالة الكاميرا
 	Remove camera?	إزالة الكاميرا؟
+	Remove colour stop	إزالة نقطة اللون
+	Remove event	إزالة الحدث
+	Remove filter	إزالة المرشح
 	Remove Frame	إزالة الإطار
 	Remove frame?	إزالة الإطار؟
 	Remove Frames	إزالة الإطارات
@@ -534,14 +704,21 @@
 	Remove Property Keyframe	إزالة الإطار الرئيسي للخاصية
 	Remove Shape Hint	إزالة تلميح الشكل
 	Remove Sound	إزالة الصوت
+	Remove the {property} keyframe at frame {frame}	إزالة الإطار الرئيسي لـ {property} في الإطار {frame}
+	Remove this action	إزالة هذا الإجراء
+	Remove this colour stop	إزالة نقطة اللون هذه
+	Remove this filter	إزالة هذا المرشح
 	Remove Transform	إزالة التحويل
 	Remove Tween	إزالة التحريك البيني
 	Remove tween	إزالة التحريك البيني
+	Remove {filter}	إزالة {filter}
+	Remove {filter} colour stop	إزالة نقطة لون {filter}
 	Removed shape hint {letter}. {undo} to undo.	أُزيل تلميح الشكل {letter}. {undo} للتراجع.
 	Removed the width point. Ctrl+Z to undo.	أُزيلت نقطة العرض. Ctrl+Z للتراجع.
 	Removed the {event} event — Ctrl+Z to undo	أُزيل حدث {event} — Ctrl+Z للتراجع
 	Removed {frames} — Ctrl+Z to undo	تمت إزالة {frames} — Ctrl+Z للتراجع
 	Removed {name}	أُزيل {name}
+	Remove…	إزالة…
 	Removing these frames deletes {keyframes} with {elements}. You can undo this.	إزالة هذه الإطارات تحذف {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
 	Rename Layer	إعادة تسمية الطبقة
 	Rename layer	إعادة تسمية الطبقة
@@ -552,6 +729,7 @@
 	Renderer	المُصيِّر
 	Rendering	التصيير
 	Repeat	إعادة
+	Repeat or loop	إعادة أو تكرار
 	Replace existing file?	استبدال الملف الموجود؟
 	Replace exported frames?	استبدال الإطارات المصدَّرة؟
 	Replace Plug-in	استبدال المكوّن الإضافي
@@ -560,27 +738,39 @@
 	Reset	إعادة تعيين
 	Reset all	إعادة تعيين الكل
 	Reset all…	إعادة تعيين الكل…
+	Reset camera	إعادة تعيين الكاميرا
 	Reset {action}	إعادة تعيين {action}
 	Resize the right-hand panels	تغيير حجم اللوحات الجانبية
 	Resize the timeline	تغيير حجم المخطط الزمني
+	Restart from frame 1 with the document as it is now ({key})	إعادة البدء من الإطار 1 بالمستند كما هو الآن ({key})
 	Restore Autosaved Document	استعادة المستند المحفوظ تلقائيًا
 	Restore {name}	استعادة {name}
 	Restored “{name}” as a new document (the file on disk is newer). Save to keep it.	استُعيد «{name}» كمستند جديد (الملف على القرص أحدث). احفظه لتُبقي عليه.
 	Restored “{name}”. It isn't saved yet: Save to keep it.	استُعيد «{name}». لم يُحفظ بعد: احفظه لتُبقي عليه.
 	Roadmap	خارطة الطريق
+	root (main timeline)	الجذر (المخطط الزمني الرئيسي)
 	Rotate 90° CCW	تدوير 90° عكس اتجاه عقارب الساعة
 	Rotate 90° CW	تدوير 90° باتجاه عقارب الساعة
 	Rotate Camera	تدوير الكاميرا
+	Round	دائري
 	Roundness	الاستدارة
+	Run	تشغيل
 	Run Plug-in	تشغيل المكوّن الإضافي
 	Runs	يعمل
+	Run…	تشغيل…
 	Safety	الأمان
+	Same for all	نفسه للكل
+	Saturation	التشبّع
 	Save As…	حفظ باسم…
 	Save changes to “{name}” before closing?	حفظ التغييرات على «{name}» قبل الإغلاق؟
 	Save document as	حفظ المستند باسم
 	Saved documents and exports go where you type in the save box; a plain name lands in the folder AniCraft was started from.	تُحفظ المستندات والصادرات حيث تكتب في مربع الحفظ، والاسم المجرد يُحفظ في المجلد الذي شُغّل منه AniCraft.
 	Saved {path}	تم حفظ {path}
 	Saved {path} to your downloads	تم حفظ {path} في التنزيلات
+	Scale height	تحجيم الارتفاع
+	Scale width	تحجيم العرض
+	Scale X	التحجيم X
+	Scale Y	التحجيم Y
 	Scanning installed fonts…	جارٍ فحص الخطوط المثبّتة…
 	Scene	المشهد
 	Scene “{name}” has {keyframes} with {elements}. You can undo this.	في المشهد «{name}» {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
@@ -592,48 +782,81 @@
 	Select at Point	التحديد عند نقطة
 	Select Elements	تحديد العناصر
 	Select Layer	تحديد الطبقة
+	Select one button or movie clip instance on the stage	حدّد نسخة زر أو مقطع فيلم واحدة على المسرح
+	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	حدّد نسخة زر أو مقطع فيلم واحدة على المسرح لتعطيها أحداثًا (الرسم لا يمكن أن يملكها: عيّن نوع رمزه في الخصائص).
+	Select some artwork first	حدّد رسمًا أولًا
 	Select something to align	حدّد شيئًا للمحاذاة
+	Select the object to see its path on the stage. Drag the path to bend it, its ends to move them; the Subselection tool (A) edits its points and handles.	حدّد الكائن لترى مساره على المسرح. اسحب المسار لثنيه، وطرفيه لنقلهما؛ وأداة التحديد الفرعي (A) تحرّر نقاطه ومقابضه.
 	Send Backward	إرجاع للخلف
 	Set Actions	تعيين الإجراءات
 	Set Tween Easing	تعيين تسارع التحريك البيني وتباطئه
 	Settings…	الإعدادات…
+	Shadow	الظل
+	Shadow offset	إزاحة الظل
+	Shadow options	خيارات الظل
 	Shape	الشكل
 	Shape Hints	تلميحات الشكل
 	Shape Tween	تحريك بيني للشكل
 	Shape tween	تحريك بيني للشكل
 	Show all again	إظهار الكل مجددًا
+	Show Folder	إظهار المجلد
+	Show only the effect, not the artwork	إظهار التأثير فقط، بدون الرسم
+	Show the stage as the movie shows it (View › Preview Through Camera)	إظهار المسرح كما يعرضه الفيلم (عرض › المعاينة عبر الكاميرا)
+	Show {name}	إظهار {name}
 	Show/Hide Layer	إظهار/إخفاء الطبقة
+	Shown	ظاهر
 	Shows its Up frame	يُظهر إطار الوضع العادي
 	Single frame	إطار واحد
+	Skew	الإمالة
 	Smooth	تنعيم
 	Smooth (bezier)	ناعم (بيزيه)
 	Smoothing	التنعيم
+	Solid	صلب
 	Some plug-ins could not be loaded: {list}	تعذّر تحميل بعض المكوّنات الإضافية: {list}
 	Sound	الصوت
 	Sound repeat	إعادة الصوت
 	Sound Settings	إعدادات الصوت
+	Sound sync	مزامنة الصوت
 	Sound · {secs} s	صوت · {secs} ث
 	Spacing	التباعد
 	Stage	المسرح
 	Stage colour	لون المسرح
+	Stage height	ارتفاع المسرح
 	Stage Rendering	تصيير المسرح
 	Stage size	حجم المسرح
+	Stage width	عرض المسرح
+	Stage · previewing through the camera · {tool} tool · frame {frame}	المسرح · المعاينة عبر الكاميرا · أداة {tool} · الإطار {frame}
+	Stage · {tool} tool · frame {frame}{selection}	المسرح · أداة {tool} · الإطار {frame}{selection}
+	Star points	رؤوس النجمة
+	Start	بدء
 	Starting the graphics card…	جارٍ تشغيل بطاقة الرسوميات…
 	Step one frame	التقدّم إطارًا واحدًا
 	Stop	إيقاف
+	Stop colour (this stop stays transparent)	لون النقطة (هذه النقطة تبقى شفافة)
+	Stops this sound	يوقف هذا الصوت
+	Straight	مستقيم
 	Straighten	تقويم
+	Straighten motion path	تقويم مسار الحركة
+	Stream	تدفق
 	Strength	الشدة
 	Stroke	الحد
 	Stroke colour	لون الحد
+	Stroke on/off	الحد تشغيل/إيقاف
 	Stroke width	سُمك الحد
+	Stroke width profile	مقطع سُمك الحد
 	Subselection	التحديد الفرعي
 	SVG drawing or image	رسم أو صورة SVG
 	SVG image	صورة SVG
 	Symbol Type	نوع الرمز
+	Symbol type	نوع الرمز
 	Sync	المزامنة
+	Taper both ends	مستدق الطرفين
+	Taper end	مستدق النهاية
+	Taper start	مستدق البداية
 	Target	الهدف
 	Test (Play from Frame 1)	اختبار (التشغيل من الإطار 1)
 	Test Movie	اختبار الفيلم
+	Test Movie — {name}	اختبار الفيلم — {name}
 	Text alignment	محاذاة النص
 	Text colour	لون النص
 	Text on the stage	نص على المسرح
@@ -641,29 +864,59 @@
 	Text: {text}	نص: {text}
 	That autosaved copy is gone	لم تعد تلك النسخة المحفوظة تلقائيًا موجودة
 	The autosaved copy of “{name}” will be deleted, with the work it holds.	ستُحذف النسخة المحفوظة تلقائيًا من «{name}» مع العمل الذي فيها.
+	the browser could not read it	تعذّر على المتصفح قراءته
+	the browser's storage for this site is full (documents with large images or sounds may not fit)	تخزين المتصفح لهذا الموقع ممتلئ (قد لا تتسع المستندات ذات الصور أو الأصوات الكبيرة)
+	The camera layer is hidden: the movie shows the stage as it is.	طبقة الكاميرا مخفية: يعرض الفيلم المسرح كما هو.
 	The camera moves over {keyframes}. Removing it removes those moves, and the movie shows the stage as it is. You can undo this.	تتحرك الكاميرا عبر {keyframes}. إزالتها تزيل هذه الحركات، ويعرض الفيلم المسرح كما هو. يمكنك التراجع عن هذا.
 	the command palette	لوحة الأوامر
 	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	يعرض خط البيانات الأرقام والرمز الزمني والمساطر والاختصارات، ولا تُدرج إلا العائلات ثابتة العرض كي تبقى الأرقام متحاذية.
+	The direction the shadow falls (the light comes from the opposite side)	اتجاه سقوط الظل (يأتي الضوء من الجهة المقابلة)
 	The file was saved after this copy, so it opens as a new document and Save asks for a name.	حُفظ الملف بعد هذه النسخة، لذا تُفتح كمستند جديد ويطلب «حفظ» اسمًا.
+	The GPU stage drew a picture the window can't show.	رسمت بطاقة الرسوميات صورة للمسرح لا تستطيع النافذة عرضها.
 	The graphics card can't draw the stage, so the CPU does: {reason}	لا تستطيع بطاقة الرسوميات رسم المسرح، فيرسمه المعالج: {reason}
 	The keyframe at frame {frame} on “{name}” holds {elements}. You can undo this.	الإطار الرئيسي عند الإطار {frame} في «{name}» يحوي {elements}. يمكنك التراجع عن هذا.
+	The movie shows what the frame on the stage shows. Layer depth (in Frame, per layer) moves far layers less.	يعرض الفيلم ما يُظهره الإطار على المسرح. عمق الطبقة (في الإطار، لكل طبقة) يحرّك الطبقات البعيدة أقل.
+	The movie: point and click its buttons	الفيلم: أشِر إلى أزراره وانقر عليها
+	The name actions use to address it (letters, digits and _)	الاسم الذي تخاطبه به الإجراءات (حروف وأرقام و _)
+	The object stays as it is on the span's first frame	يبقى الكائن كما هو في أول إطار من المقطع
+	The object stays as it is on the span's first frame (Ctrl+Z to undo)	يبقى الكائن كما هو في أول إطار من المقطع (Ctrl+Z للتراجع)
+	The playhead is on an empty frame of this layer.	رأس التشغيل على إطار فارغ من هذه الطبقة.
 	the plug-in	المكوّن الإضافي
+	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	يعمل المكوّن الإضافي كلما دخل رأس التشغيل هذا الإطار الرئيسي، فيقرأ موضع الفيلم ويعيد إجراءات. لا يستطيع تغيير المستند.
 	The plug-in “{id}” is no longer installed	لم يعد المكوّن الإضافي «{id}» مثبّتًا
+	The pointer comes up over it	يُفلت المؤشر فوقه
+	The pointer goes down on it	يُضغط المؤشر عليه
+	The pointer moves off it	يخرج المؤشر عنه
+	The pointer moves onto it	يدخل المؤشر عليه
 	The selected frames hold {keyframes} with {elements}. You can undo this.	تحوي الإطارات المحددة {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
 	the shortcut editor	محرر الاختصارات
 	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	يترك المخطط الزمني دائمًا مساحة قبل الإطار 1 لرأس التشغيل، وهذا الخيار يضيف المزيد. تبقى المساحة نفسها عند أي تكبير.
+	These run when the playhead enters frame {start} (the keyframe). For frame {frame}, add a keyframe there ({key}).	تعمل هذه عندما يدخل رأس التشغيل الإطار {start} (الإطار الرئيسي). وللإطار {frame}، أضف إطارًا رئيسيًا هناك ({key}).
 	this action	هذا الإجراء
+	this browser keeps no storage for the site (private browsing?)	هذا المتصفح لا يحتفظ بتخزين للموقع (تصفّح خاص؟)
 	this browser's storage for this site	تخزين هذا المتصفح لهذا الموقع
 	This cannot be undone.	لا يمكن التراجع عن هذا.
+	This scene	هذا المشهد
+	This span has no motion tween. Create one to animate its object property by property.	لا يحوي هذا المقطع تحريكًا بينيًا للحركة. أنشئ واحدًا لتحريك كائنه خاصيةً خاصية.
+	This span is empty. Draw or place an object, then create a motion tween.	هذا المقطع فارغ. ارسم كائنًا أو ضعه، ثم أنشئ تحريكًا بينيًا للحركة.
+	Tied to the frames: plays over this span and follows the playhead (lip sync)	مرتبط بالإطارات: يُشغَّل على هذا المقطع ويتبع رأس التشغيل (مزامنة الشفاه)
 	Time at the playhead	الوقت عند رأس التشغيل
 	Timeline	المخطط الزمني
+	Times it plays	مرات التشغيل
+	Times it plays in a row	عدد مرات تشغيله متتالية
 	Tint	الصبغة
 	To stage	إلى المسرح
+	Trace actions, frame-script logs and anything that couldn't run appear here.	تظهر هنا إجراءات التتبّع وسجلات البرامج النصية للإطارات وكل ما تعذّر تشغيله.
+	Trace message	رسالة التتبّع
 	Transform	تحويل
 	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	أوقفه على أسطح مكتب Linux التي ليس فيها XDG desktop portal، وعندها يطلب AniCraft مسارًا بدلًا من ذلك.
+	Turn the object as its motion path turns	تدوير الكائن مع انعطاف مسار حركته
 	Turn with the motion guide as it bends	الدوران مع دليل الحركة عند انحنائه
+	Turns a flattened tip (clockwise)	يدوّر الرأس المسطّح (باتجاه عقارب الساعة)
 	Turns the stroke into straight segments.	يحوّل الخط المرسوم إلى مقاطع مستقيمة.
 	Tween	التحريك البيني
+	Tween kind	نوع التحريك البيني
+	Tween to the next keyframe	تحريك بيني حتى الإطار الرئيسي التالي
 	Tween to the next keyframe instead	تحريك بيني حتى الإطار الرئيسي التالي بدلًا من ذلك
 	Type a command, tool or setting…	اكتب أمرًا أو أداة أو إعدادًا…
 	Type on the stage (or double-click the text)	اكتب على المسرح (أو انقر نقرًا مزدوجًا على النص)
@@ -673,6 +926,7 @@
 	Ubuntu + Hack (built-in defaults; build with CRAFT_FONTS_DIR for Inter + JetBrains Mono)	Ubuntu + Hack (الخطوط المضمّنة الافتراضية؛ ابنِ مع CRAFT_FONTS_DIR للحصول على Inter + JetBrains Mono)
 	Undid {action}	تم التراجع عن {action}
 	undo {n} · {mb} MB	التراجع {n} · {mb} ميغابايت
+	Uniform	منتظم
 	Untitled	بلا عنوان
 	Up/Down choose · Enter run · Esc close	أعلى/أسفل للاختيار · Enter للتشغيل · Esc للإغلاق
 	Updated {name} {version} — find it in Commands › Plug-ins	حُدّث {name} {version} — تجده في الأوامر › المكوّنات الإضافية
@@ -683,11 +937,15 @@
 	Video (WebM or MP4)	فيديو (WebM أو MP4)
 	View action	إجراء عرض
 	Welcome to AniCraft. Press Enter to play the sample animation.	مرحبًا بك في AniCraft. اضغط Enter لتشغيل الرسوم المتحركة التجريبية.
+	What runs when the playhead enters a keyframe	ما يعمل عندما يدخل رأس التشغيل إطارًا رئيسيًا
+	What runs when the playhead enters this keyframe ({key})	ما يعمل عندما يدخل رأس التشغيل هذا الإطار الرئيسي ({key})
+	What the selected button or movie clip does on clicks and the pointer	ما يفعله الزر أو مقطع الفيلم المحدّد عند النقر وحركة المؤشر
 	Where AniCraft's documents and files are on this computer	أين توجد مستندات AniCraft وملفاته على هذا الحاسوب
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	أيهما يأتي أولًا. 0 تغييرات: حسب الوقت فقط. تُكتب النسخ في الخلفية، فلا ينتظر الرسم أبدًا.
 	Width at Point	العرض عند النقطة
 	Wrap	التفاف الأسطر
 	Wrap lines at a fixed width; off, each paragraph stays on one line	يلفّ الأسطر عند عرض ثابت؛ وعند إيقافه تبقى كل فقرة على سطر واحد
+	written to Output	يُكتب في المخرجات
 	Zoom at the cursor	التكبير عند المؤشر
 	Zoom Camera	تكبير الكاميرا
 	Zoom in / out	تكبير / تصغير
@@ -699,6 +957,22 @@
 	{elements} in a new folder of {layers} with a mask. {report} {undo} to undo.	{elements} في مجلد جديد من {layers} مع قناع. {report} {undo} للتراجع.
 	{elements} in a new folder of {layers} with {masks}. {report} {undo} to undo.	{elements} في مجلد جديد من {layers} مع {masks}. {report} {undo} للتراجع.
 	{elements} on a new layer. {report} {undo} to undo.	{elements} على طبقة جديدة. {report} {undo} للتراجع.
+	{filter} angle	زاوية {filter}
+	{filter} blur X	تمويه {filter} X
+	{filter} blur Y	تمويه {filter} Y
+	{filter} colour	لون {filter}
+	{filter} colour stop {n} at {position}%	نقطة لون {filter} رقم {n} عند {position}%
+	{filter} colour stop {n} at {position}% (fixed)	نقطة لون {filter} رقم {n} عند {position}% (ثابتة)
+	{filter} distance	مسافة {filter}
+	{filter} gradient: add a colour stop	تدرّج {filter}: إضافة نقطة لون
+	{filter} highlight colour	لون إضاءة {filter}
+	{filter} knockout	{filter}: التأثير فقط
+	{filter} quality {name}	جودة {filter}: {name}
+	{filter} shadow colour	لون ظل {filter}
+	{filter} stop colour	لون نقطة {filter}
+	{filter} stop position	موضع نقطة {filter}
+	{filter} strength	شدة {filter}
+	{filter} type {type}	نوع {filter}: {type}
 	{fps} fps	{fps} إطار/ث
 	{frames} · {secs} s	{frames} · {secs} ث
 	{from}–{to} of {layers}	{from}–{to} من {layers}
@@ -706,7 +980,10 @@
 	{key} could not be moved.	تعذّر نقل {key}.
 	{key} is already used by {label}.	{key} مستخدم من قبل «{label}».
 	{key} is kept for {why}; choose another key.	{key} محجوز لـ {why}، اختر مفتاحًا آخر.
+	{name} (main timeline)	{name} (المخطط الزمني الرئيسي)
+	{name} (movie clip)	{name} (مقطع فيلم)
 	{name} (scene {n} of {of})	{name} (المشهد {n} من {of})
+	{name} ({kind})	{name} ({kind})
 	{name} folder row	صف المجلد {name}
 	{name} · {kind}	{name} · {kind}
 	{name} — Ctrl+Z to undo	{name} — Ctrl+Z للتراجع
@@ -719,22 +996,31 @@
 	{panel} · {key} for the next panel	{panel} · {key} للوحة التالية
 	{path} already exists. Exporting will replace it; this cannot be undone.	{path} موجود مسبقًا. التصدير سيستبدله، ولا يمكن التراجع عن ذلك.
 	{path} already exists. Saving will replace it; this cannot be undone.	{path} موجود مسبقًا. الحفظ سيستبدله، ولا يمكن التراجع عن ذلك.
+	{property} curve	منحنى {property}
+	{property} ease	تسارع {property} وتباطؤه
+	{property} has no keyframes: it stays {value}. Click ◇ or drag its value to key it here.	لا توجد إطارات رئيسية لـ {property}: يبقى {value}. انقر ◇ أو اسحب قيمته لإضافة مفتاح هنا.
+	{property} keyframe at frame {frame}	إطار رئيسي لـ {property} في الإطار {frame}
+	{property} · keyed	{property} · بمفتاح
 	{report} Save to keep it as an AniCraft document.	{report} احفظ للاحتفاظ به كمستند AniCraft.
 	{secs} s	{secs} ث
 	{shapes} on a new layer. {report} Ctrl+Z to undo.	{shapes} على طبقة جديدة. {report} Ctrl+Z للتراجع.
 	{tool} tool	أداة {tool}
+	“{id}” isn't installed here: Test Movie says so and plays on.	«{id}» غير مثبّت هنا: يذكر اختبار الفيلم ذلك ويواصل التشغيل.
 	“{name}” has changes that are not saved. They will be lost, and its undo history is cleared.	في «{name}» تغييرات غير محفوظة. ستضيع، ويُمسح سجل التراجع الخاص به.
 	“{name}” is already installed. Installing {path} replaces its file in the plug-ins folder ({dest}); this cannot be undone.	«{name}» مثبّت مسبقًا. تثبيت {path} يستبدل ملفه في مجلد المكوّنات الإضافية ({dest})؛ ولا يمكن التراجع عن هذا.
 	“{name}” is uninstalled and its file is deleted from the plug-ins folder ({path}). This cannot be undone.	يُلغى تثبيت «{name}» ويُحذف ملفه من مجلد المكوّنات الإضافية ({path}). لا يمكن التراجع عن هذا.
 	“{name}” plays on {keyframes}. It comes off them and out of the library. You can undo this.	يُشغَّل «{name}» على {keyframes}. يُزال منها ومن المكتبة. يمكنك التراجع عن هذا.
 	“{name}” {version} is already installed. Installing {path} replaces its file in the plug-ins folder ({dest}); this cannot be undone.	«{name}» {version} مثبّت مسبقًا. تثبيت {path} يستبدل ملفه في مجلد المكوّنات الإضافية ({dest})؛ ولا يمكن التراجع عن هذا.
 	… older steps freed (memory budget)	… حُرّرت الخطوات الأقدم (ميزانية الذاكرة)
+@plural	Curved · {n} segment|Curved · {n} segments	منحنٍ · {n} مقطع|منحنٍ · {n} مقطع|منحنٍ · {n} مقطعان|منحنٍ · {n} مقاطع|منحنٍ · {n} مقطعًا|منحنٍ · {n} مقطع
 @plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	إعادة {n} من الاختصارات المغيّرة إلى الافتراضي؟|إعادة الاختصار المغيّر ({n}) إلى الافتراضي؟|إعادة الاختصارين المغيّرين ({n}) إلى الافتراضي؟|إعادة {n} اختصارات مغيّرة إلى الافتراضي؟|إعادة {n} اختصارًا مغيّرًا إلى الافتراضي؟|إعادة {n} اختصار مغيّر إلى الافتراضي؟
 @plural	{n} day ago|{n} days ago	منذ {n} يوم|منذ {n} يوم|منذ {n} يومين|منذ {n} أيام|منذ {n} يومًا|منذ {n} يوم
+@plural	{n} element selected|{n} elements selected	{n} عنصر محدّد|{n} عنصر محدّد|{n} عنصران محدّدان|{n} عناصر محدّدة|{n} عنصرًا محدّدًا|{n} عنصر محدّد
 @plural	{n} element|{n} elements	{n} عنصر|{n} عنصر|{n} عنصران|{n} عناصر|{n} عنصرًا|{n} عنصر
 @plural	{n} frame|{n} frames	{n} إطار|{n} إطار|{n} إطاران|{n} إطارات|{n} إطارًا|{n} إطار
 @plural	{n} h ago|{n} h ago	منذ {n} ساعة|منذ {n} ساعة|منذ {n} ساعتين|منذ {n} ساعات|منذ {n} ساعةً|منذ {n} ساعة
 @plural	{n} item|{n} items	{n} عنصر|{n} عنصر|{n} عنصران|{n} عناصر|{n} عنصرًا|{n} عنصر
+@plural	{n} key frame|{n} key frames	{n} إطار رئيسي|{n} إطار رئيسي|{n} إطاران رئيسيان|{n} إطارات رئيسية|{n} إطارًا رئيسيًا|{n} إطار رئيسي
 @plural	{n} keyframe|{n} keyframes	{n} إطار رئيسي|{n} إطار رئيسي|{n} إطاران رئيسيان|{n} إطارات رئيسية|{n} إطارًا رئيسيًا|{n} إطار رئيسي
 @plural	{n} layer|{n} layers	{n} طبقة|{n} طبقة|{n} طبقتان|{n} طبقات|{n} طبقةً|{n} طبقة
 @plural	{n} mask|{n} masks	{n} قناع|{n} قناع|{n} قناعان|{n} أقنعة|{n} قناعًا|{n} قناع
