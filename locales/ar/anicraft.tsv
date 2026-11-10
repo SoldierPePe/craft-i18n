@@ -100,6 +100,8 @@
 	Back to the stage as it is: centred, 100 %, no turn, no tint	العودة إلى المسرح كما هو: في المنتصف، 100 %، بلا تدوير، بلا صبغة
 	Back to the straight path the X and Y curves trace	العودة إلى المسار المستقيم الذي يرسمه منحنيا X وY
 	Background	في الخلفية
+	Bend	ثني
+	Bend Segment	ثني المقطع
 	Bevel	شطف
 	Bevel highlight colour	لون إضاءة الشطف
 	Bevel offset	إزاحة الشطف
@@ -345,6 +347,7 @@
 	Export animated GIF	تصدير GIF متحرك
 	Export Animated GIF…	تصدير GIF متحرك…
 	Export audio (the movie's soundtrack as a WAV)	تصدير الصوت (المسار الصوتي للفيلم بصيغة WAV)
+	Export Audio…	تصدير الصوت…
 	Export frame as PNG	تصدير الإطار بصيغة PNG
 	Export Frame as PNG…	تصدير الإطار بصيغة PNG…
 	Export frame as SVG	تصدير الإطار بصيغة SVG
@@ -467,6 +470,7 @@
 	Image added to the Library	أُضيفت الصورة إلى المكتبة
 	Immediate	فوري
 	Import to library (WAV, OGG or MP3 sound; PNG or JPEG image)	استيراد إلى المكتبة (صوت WAV أو OGG أو MP3؛ صورة PNG أو JPEG)
+	Import to Library…	استيراد إلى المكتبة…
 	Import to stage (SVG, PNG or JPEG)	استيراد إلى المسرح (SVG أو PNG أو JPEG)
 	Import to stage (SVG, PNG or JPEG; WAV, OGG or MP3 onto a new layer)	استيراد إلى المسرح (SVG أو PNG أو JPEG؛ WAV أو OGG أو MP3 على طبقة جديدة)
 	Import to Stage…	استيراد إلى المسرح…
@@ -550,6 +554,7 @@
 	Masked	مقنَّعة
 	masked layer	طبقة مقنَّعة
 	memory only	في الذاكرة فقط
+	Merge Shapes	دمج الأشكال
 	Message	الرسالة
 	missing	مفقود
 	missing bitmap	صورة نقطية مفقودة
@@ -572,6 +577,7 @@
 	Move Layer Up	نقل الطبقة للأعلى
 	Move layer up	نقل الطبقة للأعلى
 	Move Motion Path	نقل مسار الحركة
+	Move Point	نقل النقطة
 	Move Points	نقل النقاط
 	Move Scene Earlier	تقديم المشهد
 	Move Scene Later	تأخير المشهد
@@ -678,6 +684,7 @@
 	Pen	القلم
 	Pen Path	مسار القلم
 	Pencil	قلم الرصاص
+	Pencil Stroke	خط قلم الرصاص
 	Performance & budgets	الأداء والميزانيات
 	Pick a key that has another key after it	اختر مفتاحًا بعده مفتاح آخر
 	Picked the {what}. {next}.	التُقط {what}. {next}.
@@ -688,6 +695,7 @@
 	Place Instance	وضع نسخة
 	Place on stage	وضع على المسرح
 	Place on timeline	وضع على المخطط الزمني
+	Place Sound	وضع الصوت
 	Play	تشغيل
 	Play / Stop	تشغيل / إيقاف
 	play / stop	التشغيل / الإيقاف
@@ -870,10 +878,12 @@
 	Select Layer	تحديد الطبقة
 	Select one button or movie clip instance on the stage	حدّد نسخة زر أو مقطع فيلم واحدة على المسرح
 	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	حدّد نسخة زر أو مقطع فيلم واحدة على المسرح لتعطيها أحداثًا (الرسم لا يمكن أن يملكها: عيّن نوع رمزه في الخصائص).
+	Select Parts	تحديد الأجزاء
 	Select some artwork first	حدّد رسمًا أولًا
 	Select something to align	حدّد شيئًا للمحاذاة
 	Select the object to see its path on the stage. Drag the path to bend it and its ends to move them; {key} the path or the object to move the whole path. With the Subselection tool (A), drag points and handles, double-click the path to add a point (or Alt-click it with the Pen), Delete removes points, and right-click makes them smooth or corners.	حدّد الكائن لترى مساره على المسرح. اسحب المسار لثنيه، وطرفيه لنقلهما؛ و{key} على المسار أو الكائن ينقل المسار كله. وبأداة التحديد الفرعي (A) اسحب النقاط والمقابض، وانقر نقرًا مزدوجًا على المسار لإضافة نقطة (أو انقر عليه مع Alt بالقلم)، وDelete يزيل النقاط، والزر الأيمن يجعلها ناعمة أو زوايا.
 	Select the object to see its path on the stage. Drag the path to bend it, its ends to move them; the Subselection tool (A) edits its points and handles.	حدّد الكائن لترى مساره على المسرح. اسحب المسار لثنيه، وطرفيه لنقلهما؛ وأداة التحديد الفرعي (A) تحرّر نقاطه ومقابضه.
+	Selection Tool Target	هدف أداة التحديد
 	Send Backward	إرجاع للخلف
 	Set Actions	تعيين الإجراءات
 	Set Frame Script	تعيين البرنامج النصي للإطار
@@ -1049,6 +1059,7 @@
 	Where the motion starts. Changing it moves the whole path, and the object with it; the timing stays.	حيث تبدأ الحركة. تغييرها ينقل المسار كله والكائن معه؛ ويبقى التوقيت.
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	أيهما يأتي أولًا. 0 تغييرات: حسب الوقت فقط. تُكتب النسخ في الخلفية، فلا ينتظر الرسم أبدًا.
 	Width at Point	العرض عند النقطة
+	Width Profile	ملف العرض
 	Wrap	التفاف الأسطر
 	Wrap lines at a fixed width; off, each paragraph stays on one line	يلفّ الأسطر عند عرض ثابت؛ وعند إيقافه تبقى كل فقرة على سطر واحد
 	written to Output	يُكتب في المخرجات
