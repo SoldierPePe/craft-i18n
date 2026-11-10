@@ -171,6 +171,7 @@
 	Click a shape to give it the current stroke colour and width.	انقر على شكل لتعطيه لون الحد وسُمكه الحاليين.
 	Click a shape to give it this line	انقر على شكل لتعطيه هذا الخط
 	Click a shape to show its points. Drag points or handles to reshape (Shift adds to the point selection, drag on empty space to marquee points). Double-click an edge to add a point; Delete removes points. Right-click to make a point smooth or a corner. A motion path's points edit the same way (its ends stay).	انقر على شكل لإظهار نقاطه. اسحب النقاط أو المقابض لإعادة التشكيل (Shift يضيف إلى تحديد النقاط، والسحب في مساحة فارغة يحدد النقاط بمستطيل). انقر نقرًا مزدوجًا على حافة لإضافة نقطة، وDelete يزيل النقاط. انقر بالزر الأيمن لجعل النقطة ناعمة أو زاوية. وتُحرَّر نقاط مسار الحركة بالطريقة نفسها (يبقى طرفاه).
+	Click a shape to show its points; on a merged drawing, the points of everything connected to it. Drag points or handles to reshape (a shared point moves every shape that has it); drag a line or fill to move everything connected. Shift adds to the point selection, drag on empty space to marquee points, arrow keys nudge them. On drawing objects, double-click an edge to add a point, Delete removes points, and right-click makes a point smooth or a corner. A motion path's points edit the same way (its ends stay).	انقر على شكل لإظهار نقاطه؛ وفي الرسم المدموج تظهر نقاط كل ما يتصل به. اسحب النقاط أو المقابض لإعادة التشكيل (النقطة المشتركة تحرّك كل شكل يشترك فيها)؛ واسحب خطًا أو تعبئة لتحريك كل ما يتصل بهما. Shift يضيف إلى تحديد النقاط، والسحب في مساحة فارغة يحدد النقاط بمستطيل، ومفاتيح الأسهم تزيحها. وعلى كائنات الرسم، انقر نقرًا مزدوجًا على حافة لإضافة نقطة، وDelete يزيل النقاط، والنقر بالزر الأيمن يجعل النقطة ناعمة أو زاوية. وتُحرَّر نقاط مسار الحركة بالطريقة نفسها (يبقى طرفاه).
 	Click inside an outline to fill it (on the layer's lines), or on a fill to recolour it. The gap size closes small openings.	انقر داخل حدود مغلقة لتعبئتها (على خطوط الطبقة)، أو على تعبئة لتغيير لونها. حجم الفجوة يغلق الفتحات الصغيرة.
 	Click to add a colour stop	انقر لإضافة نقطة لون
 	Click to change · right-click to remove	انقر للتغيير · انقر بالزر الأيمن للإزالة
@@ -282,6 +283,7 @@
 	Drag to erase lines and fills drawn with Object Drawing off (drawing objects and symbols are kept). [ and ] change the size; the options set the shape and erase mode, and the Faucet deletes a whole fill or line with a click. Double-click the tool to erase everything on the stage.	اسحب لمسح الخطوط والتعبئات المرسومة ورسم الكائنات متوقف (تبقى كائنات الرسم والرموز). المفتاحان [ و ] يغيّران الحجم؛ والخيارات تحدّد الشكل ووضع المسح، والصنبور يحذف تعبئة أو خطًا كاملًا بنقرة. انقر على الأداة نقرًا مزدوجًا لمسح كل ما على المسرح.
 	Drag to paint filled shapes in the fill colour (a click paints a dab). [ and ] change the size; the options set the shape, smoothing and paint mode.	اسحب لطلاء أشكال معبّأة بلون التعبئة (النقرة تطلي لمسة). المفتاحان [ و ] يغيّران الحجم؛ والخيارات تحدّد الشكل والتنعيم ووضع الطلاء.
 	Drag to pan the stage. Space works with any tool.	اسحب لتحريك عرض المسرح. المسافة تعمل مع أي أداة.
+	Dragged points and selections snap to points, lines and fill edges within 10 pixels (the magnet under the tools)	تلتصق النقاط والتحديدات المسحوبة بالنقاط والخطوط وحواف التعبئة ضمن 10 بكسل (المغناطيس تحت الأدوات)
 	Drawing	الرسم
 	Drawing on {adapter}, straight into the window.	يجري الرسم على {adapter} مباشرةً في النافذة.
 	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	يجري الرسم على {adapter} ثم يُنسخ إلى النافذة (أبطأ: لا يمكن مشاركة جهاز الرسوميات الخاص بالنافذة).
@@ -571,6 +573,7 @@
 	Move colour stop	نقل نقطة اللون
 	Move down	نقل للأسفل
 	Move Envelope Point	نقل نقطة الغلاف
+	Move Handle	نقل المقبض
 	Move Keyframes	نقل الإطارات الرئيسية
 	Move Layer Down	نقل الطبقة للأسفل
 	Move layer down	نقل الطبقة للأسفل
@@ -725,6 +728,7 @@
 	Pointer out	خروج المؤشر
 	Pointer over	مرور المؤشر
 	Points	النقاط
+	Points of merged drawings can't be deleted yet. Select the parts with the Selection tool (V) and delete them.	لا يمكن حذف نقاط الرسوم المدموجة بعد. حدّد الأجزاء بأداة التحديد (V) ثم احذفها.
 	PolyStar	مضلع/نجمة
 	Position X	الموضع X
 	Position Y	الموضع Y
@@ -760,6 +764,7 @@
 	quitting	الإنهاء
 	Radial gradient	تدرّج شعاعي
 	radial gradient	التدرّج الشعاعي
+	Raw Points	نقاط الرسم المدموج
 	Read times in frames	قراءة الأزمنة بالإطارات
 	Read times in seconds	قراءة الأزمنة بالثواني
 	Recoloured the fill. Ctrl+Z to undo.	تم تغيير لون التعبئة. Ctrl+Z للتراجع.
@@ -913,6 +918,9 @@
 	Smooth	تنعيم
 	Smooth (bezier)	ناعم (بيزيه)
 	Smoothing	التنعيم
+	Snap to Objects	الالتقاط إلى الكائنات
+	Snap to objects	الالتقاط إلى الكائنات
+	Snapping	الالتقاط
 	Solid	صلب
 	Some plug-ins could not be loaded: {list}	تعذّر تحميل بعض المكوّنات الإضافية: {list}
 	Sound	الصوت
@@ -949,6 +957,8 @@
 	Stroke on/off	الحد تشغيل/إيقاف
 	Stroke width	سُمك الحد
 	Stroke width profile	مقطع سُمك الحد
+	Subselect	تحديد فرعي
+	Subselect Rectangle	تحديد فرعي بمستطيل
 	Subselection	التحديد الفرعي
 	SVG drawing or image	رسم أو صورة SVG
 	SVG image	صورة SVG
@@ -1108,6 +1118,8 @@
 	{name} · {kind}	{name} · {kind}
 	{name} — Ctrl+Z to undo	{name} — Ctrl+Z للتراجع
 	{name}: click to add a volume point	{name}: انقر لإضافة نقطة مستوى صوت
+	{name}: off\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: متوقف\nتلتصق النقاط والتحديدات المسحوبة بالنقاط والخطوط وحواف التعبئة ضمن 10 بكسل.
+	{name}: on\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: مفعّل\nتلتصق النقاط والتحديدات المسحوبة بالنقاط والخطوط وحواف التعبئة ضمن 10 بكسل.
 	{n} commands are scriptable via anicraft-cli	عدد الأوامر القابلة للبرمجة عبر anicraft-cli: {n}
 	{n} engine commands — all available headless via anicraft-cli.	أوامر المحرك: {n} — كلها متاحة بلا واجهة عبر anicraft-cli.
 	{n} f	{n} إطار
