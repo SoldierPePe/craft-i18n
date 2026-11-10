@@ -11,6 +11,7 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
+	(unnamed)	(بلا اسم)
 	+ Layer	+ طبقة
 	1 minute	دقيقة واحدة
 	10 minutes	10 دقائق
@@ -121,6 +122,7 @@
 	Brush Stroke	ضربة فرشاة
 	Bulge	انتفاخ
 	Button	زر
+	Button {name}	زر {name}
 	Button: {name}	زر: {name}
 	by {author} · {id} · {size}	من {author} · {id} · {size}
 	cache {n} fr · {mb} MB · {hit}% hit	الذاكرة المؤقتة {n} إطار · {mb} ميغابايت · نسبة الإصابة {hit}%
@@ -406,6 +408,8 @@
 	Glow	توهّج
 	Glow options	خيارات التوهّج
 	Go to	الانتقال إلى
+	Go to and play	الانتقال والتشغيل
+	Go to and stop	الانتقال والإيقاف
 	Go to First Frame	الانتقال إلى الإطار الأول
 	Go to Frame	الانتقال إلى إطار
 	Go to Last Frame	الانتقال إلى الإطار الأخير
@@ -540,6 +544,7 @@
 	Moves, scales, rotates and recolours	ينقل ويحجّم ويدوّر ويغيّر اللون
 	Movie clip	مقطع فيلم
 	movie clip	مقطع فيلم
+	Movie clip {name}	مقطع فيلم {name}
 	Movie clip: {name}	مقطع فيلم: {name}
 	moving between fields	التنقل بين الحقول
 	Moving the object on the stage inside the span adds keys here	تحريك الكائن على المسرح داخل المقطع يضيف مفاتيح هنا
@@ -557,6 +562,7 @@
 	Next frame (.)	الإطار التالي (.)
 	Next Panel	اللوحة التالية
 	Next Scene	المشهد التالي
+	Next scene	المشهد التالي
 	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	لا توجد إجراءات بعد. أضف واحدًا: الإيقاف على إطار يُبقي الفيلم هناك، ثم يمكن لنقر زرٍّ أن يتابع.
 	No autosaved work to recover	لا يوجد عمل محفوظ تلقائيًا لاستعادته
 	No fonts found on this computer	لم يُعثر على خطوط في هذا الحاسوب
@@ -675,6 +681,7 @@
 	Previous frame (,)	الإطار السابق (,)
 	Previous Panel	اللوحة السابقة
 	Previous Scene	المشهد السابق
+	Previous scene	المشهد السابق
 	Project Files	ملفات المشروع
 	Project Files & Docs	ملفات المشروع ووثائقه
 	Project Files & Docs…	ملفات المشروع ووثائقه…
@@ -802,6 +809,7 @@
 	Select the object to see its path on the stage. Drag the path to bend it, its ends to move them; the Subselection tool (A) edits its points and handles.	حدّد الكائن لترى مساره على المسرح. اسحب المسار لثنيه، وطرفيه لنقلهما؛ وأداة التحديد الفرعي (A) تحرّر نقاطه ومقابضه.
 	Send Backward	إرجاع للخلف
 	Set Actions	تعيين الإجراءات
+	Set property	تعيين خاصية
 	Set Tween Easing	تعيين تسارع التحريك البيني وتباطئه
 	Settings…	الإعدادات…
 	Shadow	الظل
@@ -921,6 +929,7 @@
 	Times it plays in a row	عدد مرات تشغيله متتالية
 	Tint	الصبغة
 	To stage	إلى المسرح
+	Trace	تتبّع
 	Trace actions, frame-script logs and anything that couldn't run appear here.	تظهر هنا إجراءات التتبّع وسجلات البرامج النصية للإطارات وكل ما تعذّر تشغيله.
 	Trace message	رسالة التتبّع
 	Transform	تحويل
@@ -951,6 +960,7 @@
 	Vertical Center	المركز العمودي
 	Video (WebM or MP4)	فيديو (WebM أو MP4)
 	View action	إجراء عرض
+	Visible	الظهور
 	Welcome to AniCraft. Press Enter to play the sample animation.	مرحبًا بك في AniCraft. اضغط Enter لتشغيل الرسوم المتحركة التجريبية.
 	What runs when the playhead enters a keyframe	ما يعمل عندما يدخل رأس التشغيل إطارًا رئيسيًا
 	What runs when the playhead enters this keyframe ({key})	ما يعمل عندما يدخل رأس التشغيل هذا الإطار الرئيسي ({key})
