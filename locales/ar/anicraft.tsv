@@ -25,8 +25,11 @@
 	A recovery copy of your unsaved work. If AniCraft closes unexpectedly, the next start offers it back.	نسخة استعادة من عملك غير المحفوظ. إذا أُغلق AniCraft فجأة، يعرضها عليك في التشغيل التالي.
 	A round eraser	ممحاة دائرية
 	A round or oval tip	رأس دائري أو بيضوي
+	A sound keeps at least one point	يحتفظ الصوت بنقطة واحدة على الأقل
 	A square eraser	ممحاة مربعة
 	A square or flat tip	رأس مربع أو مسطّح
+	a stream looping over its {span}-frame span	تدفق يتكرر على مقطعه البالغ {span} إطار
+	a stream, within its {span}-frame span	تدفق ضمن مقطعه البالغ {span} إطار
 	About AniCraft	حول AniCraft
 	Actions Panel	لوحة الإجراءات
 	Actions…	الإجراءات…
@@ -42,6 +45,7 @@
 	Add camera	إضافة كاميرا
 	Add Classic Motion Guide	إضافة دليل حركة كلاسيكي
 	Add colour stop	إضافة نقطة لون
+	Add Envelope Point	إضافة نقطة غلاف
 	Add event	إضافة حدث
 	Add filter	إضافة مرشح
 	Add Motion Path Point	إضافة نقطة لمسار الحركة
@@ -158,6 +162,7 @@
 	Cleared {keyframes} — Ctrl+Z to undo	تم مسح {keyframes} — Ctrl+Z للتراجع
 	Clears every visible, unlocked layer at this frame, as double-clicking the Eraser tool does. You can undo it	يمسح كل طبقة ظاهرة غير مقفلة في هذا الإطار، مثل النقر المزدوج على أداة الممحاة. يمكنك التراجع عنه
 	Click	النقر
+	Click a channel to add a point (up to {max}), drag a point to shape the volume, right-click it to delete it. {points}.	انقر على قناة لإضافة نقطة (حتى {max})، واسحب نقطة لتشكيل مستوى الصوت، وانقرها بالزر الأيمن لحذفها. {points}.
 	Click a fill or an enclosed area to pour it	انقر على تعبئة أو منطقة مغلقة لسكبها
 	Click a fill to pick its colour, gradient or bitmap (then pour it with the Paint Bucket), or a line to pick its colour, width and profile (then apply it with the Ink Bottle). With shapes selected, the picked style goes onto them. Shift-click picks into the other swatch only.	انقر على تعبئة لالتقاط لونها أو تدرّجها أو صورتها النقطية (ثم اسكبها بدلو الطلاء)، أو على خط لالتقاط لونه وسُمكه ومقطعه الجانبي (ثم طبّقه بزجاجة الحبر). وإذا كانت هناك أشكال محدّدة، يُطبَّق النمط الملتقط عليها. النقر مع Shift يلتقط إلى العيّنة الأخرى فقط.
 	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	انقر على مفتاح لتغييره أو على + لإضافة واحد، وانقر بالزر الأيمن على مفتاح لإزالته. تُحفظ التغييرات أولًا بأول.
@@ -218,6 +223,7 @@
 	Default (bundled: {font})	الافتراضي (المرفق: {font})
 	Default ({font})	الافتراضي ({font})
 	Delete Anchor Points	حذف نقاط الارتكاز
+	Delete Envelope Point	حذف نقطة الغلاف
 	Delete Folder	حذف المجلد
 	Delete folder?	حذف المجلد؟
 	Delete layer	حذف الطبقة
@@ -289,13 +295,17 @@
 	Ease out (quad)	تباطؤ (تربيعي)
 	Easing	التسارع والتباطؤ
 	Edit actions	تحرير الإجراءات
+	Edit Envelope — {name}	تحرير الغلاف — {name}
+	Edit Envelope: the volume of each channel over the sound's time	تحرير الغلاف: مستوى صوت كل قناة على مدى زمن الصوت
 	Edit event	تحرير الحدث
 	Edit Motion Path	تحرير مسار الحركة
+	Edit sound envelope	تحرير غلاف الصوت
 	Edit Text	تحرير النص
 	Edit the property curves	تحرير منحنيات الخصائص
 	Edit the property curves and eases	تحرير منحنيات الخصائص وتسارعها وتباطئها
 	Edit what it does on clicks and the pointer ({key})	تحرير ما يفعله عند النقر وحركة المؤشر ({key})
 	Edits show immediately; heavy scenes render in the background with an outline preview.	تظهر التعديلات فورًا، والمشاهد الثقيلة تُصيَّر في الخلفية مع معاينة بالخطوط الخارجية.
+	Effect	التأثير
 	Empty frame — press F7 for a blank keyframe	إطار فارغ — اضغط F7 لإطار رئيسي فارغ
 	Engine crates (source)	حزم المحرك (المصدر)
 	Enter applies · Esc cancels · one undo step	Enter للتطبيق · Esc للإلغاء · خطوة تراجع واحدة
@@ -303,6 +313,7 @@
 	Enter saves · Esc cancels	Enter للحفظ · Esc للإلغاء
 	Entry	المدخل
 	Entry point	نقطة الدخول
+	Envelope Point	نقطة الغلاف
 	Erase Everything	مسح كل شيء
 	Erase everything?	مسح كل شيء؟
 	Erase Everything…	مسح كل شيء…
@@ -356,6 +367,11 @@
 	Exported {path} ({secs} s). No sounds play in that range, so the file is silent.	تم تصدير {path} ({secs} ث). لا يُشغَّل أي صوت في هذا النطاق، لذا الملف صامت.
 	Extra start gap	فجوة بداية إضافية
 	Eyedropper	القطّارة
+	Fade in	ظهور تدريجي
+	Fade left to right	تلاشٍ من اليسار إلى اليمين
+	Fade out	تلاشٍ تدريجي
+	Fade right to left	تلاشٍ من اليمين إلى اليسار
+	Falls from full volume to silence while it plays	ينخفض من المستوى الكامل إلى الصمت أثناء تشغيله
 	Faucet	الصنبور
 	File dialogs	مربعات حوار الملفات
 	Files	الملفات
@@ -408,10 +424,13 @@
 	Frame {frame}	الإطار {frame}
 	Frame {frame} is a one-frame keyframe on “{name}” with {elements}; removing it deletes that artwork. You can undo this.	الإطار {frame} إطار رئيسي بطول إطار واحد في «{name}» فيه {elements}، وإزالته تحذف ذلك الرسم. يمكنك التراجع عن هذا.
 	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	الإطار {frame} فارغ في هذه الطبقة. أضف إطارًا رئيسيًا فارغًا ({key}) لتعطيه إجراءات.
+	frame {n}	الإطار {n}
+	Frames	الإطارات
 	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	الإطارات هنا لا تعمل (المخططات الزمنية للرسوم والأزرار، وطبقات الدليل)؛ ويُحفظ البرنامج النصي مع المستند.
 	Frames of {name}	إطارات {name}
 	Free Transform	التحويل الحر
 	Full	كامل
+	Full volume on both channels	مستوى صوت كامل على القناتين
 	Gap size	حجم الفجوة
 	Give every property's segment at this frame this ease	إعطاء مقطع كل خاصية في هذا الإطار هذا التسارع والتباطؤ
 	Glow	توهّج
@@ -434,6 +453,7 @@
 	Guided	موجَّهة
 	Hand	اليد
 	Hard Light	ضوء ساطع
+	Heard for {span} ({reason}). Presets are shaped over this time; editing one makes it Custom.	يُسمع لمدة {span} ({reason}). تتشكّل الإعدادات الجاهزة على هذه المدة؛ وتحرير أحدها يجعله مخصّصًا.
 	Hide object	إخفاء الكائن
 	Highlight	الإضاءة
 	Horizontal Center	المركز الأفقي
@@ -491,8 +511,12 @@
 	Layer depth	عمق الطبقة
 	Layer names, menus and dialog text read like this.	هكذا تظهر أسماء الطبقات والقوائم ونصوص مربعات الحوار.
 	Layer Type	نوع الطبقة
+	Layer Volume	مستوى صوت الطبقة
+	Layer volume	مستوى صوت الطبقة
 	Layer “{name}” has {keyframes} with {elements}. You can undo this.	في الطبقة «{name}» {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
 	Layers and frames	الطبقات والإطارات
+	Left channel	القناة اليسرى
+	Left channel volume	مستوى صوت القناة اليسرى
 	Legal compliance	الامتثال القانوني
 	Letter spacing	تباعد الأحرف
 	Letters 	الأحرف 
@@ -514,6 +538,7 @@
 	Loop Playback	تشغيل متكرر
 	Loop playback	تشغيل متكرر
 	Looping	التكرار
+	looping to the end of the movie, {frames} on	يتكرر حتى نهاية الفيلم، بعد {frames}
 	Lottie animation	رسوم Lottie متحركة
 	Main timeline frame	إطار المخطط الزمني الرئيسي
 	Make Corner	جعلها زاوية
@@ -540,6 +565,7 @@
 	Move Camera	تحريك الكاميرا
 	Move colour stop	نقل نقطة اللون
 	Move down	نقل للأسفل
+	Move Envelope Point	نقل نقطة الغلاف
 	Move Keyframes	نقل الإطارات الرئيسية
 	Move Layer Down	نقل الطبقة للأسفل
 	Move layer down	نقل الطبقة للأسفل
@@ -554,6 +580,8 @@
 	Moved {what} by {by} — Ctrl+Z to undo	تم نقل {what} بمقدار {by} — Ctrl+Z للتراجع
 	Moved {what} {layers} down — Ctrl+Z to undo	تم نقل {what} للأسفل بمقدار {layers} — Ctrl+Z للتراجع
 	Moved {what} {layers} up — Ctrl+Z to undo	تم نقل {what} للأعلى بمقدار {layers} — Ctrl+Z للتراجع
+	Moves from the left channel to the right while it plays	ينتقل من القناة اليسرى إلى اليمنى أثناء تشغيله
+	Moves from the right channel to the left while it plays	ينتقل من القناة اليمنى إلى اليسرى أثناء تشغيله
 	Moves, scales, rotates and recolours	ينقل ويحجّم ويدوّر ويغيّر اللون
 	Movie clip	مقطع فيلم
 	movie clip	مقطع فيلم
@@ -562,6 +590,11 @@
 	moving between fields	التنقل بين الحقول
 	Moving the object on the stage inside the span adds keys here	تحريك الكائن على المسرح داخل المقطع يضيف مفاتيح هنا
 	Multiply	ضرب
+	Mute	كتم
+	Mute layer	كتم الطبقة
+	Mute this layer's sounds (in playback and every export)	كتم أصوات هذه الطبقة (في التشغيل وكل تصدير)
+	Mute {name}	كتم {name}
+	Mute/Unmute Layer	كتم/إلغاء كتم الطبقة
 	Name it to address it from actions (letters, digits and _). Its events work without a name.	سمّه لتخاطبه من الإجراءات (حروف وأرقام و _). أحداثه تعمل بلا اسم.
 	Never saved	لم يُحفظ قط
 	New document	مستند جديد
@@ -660,12 +693,16 @@
 	play / stop	التشغيل / الإيقاف
 	Play / Stop (Enter)	تشغيل / إيقاف (Enter)
 	Play once	تشغيل مرة واحدة
+	Play the sound with this envelope	تشغيل الصوت بهذا الغلاف
+	played once	يُشغَّل مرة واحدة
 	Playhead (frame ruler)	رأس التشغيل (مسطرة الإطارات)
 	Playing without sound: {reason}	التشغيل بلا صوت: {reason}
 	Plays again and again: to the end of the movie (event) or of this span (stream)	يُشغَّل مرارًا: حتى نهاية الفيلم (حدث) أو نهاية هذا المقطع (تدفق)
 	Plays in full from this keyframe, independent of the timeline	يُشغَّل كاملًا من هذا الإطار الرئيسي، مستقلًا عن المخطط الزمني
 	Plays its own timeline on a loop, from when it appears	يشغّل مخططه الزمني الخاص بشكل متكرر، منذ ظهوره
 	Plays its {frames}-frame timeline on a loop from when it appears.	يشغّل مخططه الزمني ({frames} إطار) بشكل متكرر منذ ظهوره.
+	Plays on the left channel only	يُشغَّل على القناة اليسرى فقط
+	Plays on the right channel only	يُشغَّل على القناة اليمنى فقط
 	Plays the sound on its own	يشغّل الصوت وحده
 	Plug-in	المكوّن الإضافي
 	Plug-in · {by}	مكوّن إضافي · {by}
@@ -674,6 +711,9 @@
 	Plug-ins: {reason}	المكوّنات الإضافية: {reason}
 	PNG image	صورة PNG
 	PNG sprite sheet	ورقة نقوش متحركة PNG
+	Point time	زمن النقطة
+	Point {i} of {n}	النقطة {i} من {n}
+	Point {i} of {n}, {name}: {pct} % at {time}	النقطة {i} من {n}، {name}: {pct} % عند {time}
 	Pointer out	خروج المؤشر
 	Pointer over	مرور المؤشر
 	Points	النقاط
@@ -712,6 +752,8 @@
 	quitting	الإنهاء
 	Radial gradient	تدرّج شعاعي
 	radial gradient	التدرّج الشعاعي
+	Read times in frames	قراءة الأزمنة بالإطارات
+	Read times in seconds	قراءة الأزمنة بالثواني
 	Recoloured the fill. Ctrl+Z to undo.	تم تغيير لون التعبئة. Ctrl+Z للتراجع.
 	Recover Autosaved Documents…	استعادة المستندات المحفوظة تلقائيًا…
 	Recover unsaved work	استعادة العمل غير المحفوظ
@@ -783,6 +825,9 @@
 	Restore {name}	استعادة {name}
 	Restored “{name}” as a new document (the file on disk is newer). Save to keep it.	استُعيد «{name}» كمستند جديد (الملف على القرص أحدث). احفظه لتُبقي عليه.
 	Restored “{name}”. It isn't saved yet: Save to keep it.	استُعيد «{name}». لم يُحفظ بعد: احفظه لتُبقي عليه.
+	Right channel	القناة اليمنى
+	Right channel volume	مستوى صوت القناة اليمنى
+	Rises from silence to full volume while it plays	يرتفع من الصمت إلى المستوى الكامل أثناء تشغيله
 	Roadmap	خارطة الطريق
 	root (main timeline)	الجذر (المخطط الزمني الرئيسي)
 	Rotate 90° CCW	تدوير 90° عكس اتجاه عقارب الساعة
@@ -817,6 +862,8 @@
 	Scripts from other tools are kept with the document as written; use actions for what should happen while the movie plays	البرامج النصية من الأدوات الأخرى تُحفظ مع المستند كما كُتبت؛ استخدم الإجراءات لما يجب أن يحدث أثناء تشغيل الفيلم
 	Scroll the timeline	تمرير المخطط الزمني
 	Scroll the timeline (or Shift+wheel anywhere over it)	تمرير المخطط الزمني (أو Shift مع العجلة في أي مكان فوقه)
+	Seconds	الثواني
+	Select a keyframe with a sound to edit its envelope	حدّد إطارًا رئيسيًا فيه صوت لتحرير غلافه
 	Select All Frames	تحديد كل الإطارات
 	Select at Point	التحديد عند نقطة
 	Select Elements	تحديد العناصر
@@ -845,10 +892,12 @@
 	Show Folder	إظهار المجلد
 	Show only the effect, not the artwork	إظهار التأثير فقط، بدون الرسم
 	Show the stage as the movie shows it (View › Preview Through Camera)	إظهار المسرح كما يعرضه الفيلم (عرض › المعاينة عبر الكاميرا)
+	Show the whole sound	إظهار الصوت كاملًا
 	Show {name}	إظهار {name}
 	Show/Hide Layer	إظهار/إخفاء الطبقة
 	Shown	ظاهر
 	Shows its Up frame	يُظهر إطار الوضع العادي
+	Silence this layer's sounds while you work and in every export	إسكات أصوات هذه الطبقة أثناء عملك وفي كل تصدير
 	Single frame	إطار واحد
 	Skew	الإمالة
 	Smooth	تنعيم
@@ -857,6 +906,7 @@
 	Solid	صلب
 	Some plug-ins could not be loaded: {list}	تعذّر تحميل بعض المكوّنات الإضافية: {list}
 	Sound	الصوت
+	Sound effect	تأثير الصوت
 	Sound repeat	إعادة الصوت
 	Sound Settings	إعدادات الصوت
 	Sound sync	مزامنة الصوت
@@ -876,6 +926,7 @@
 	Step one frame	التقدّم إطارًا واحدًا
 	Stop	إيقاف
 	Stop colour (this stop stays transparent)	لون النقطة (هذه النقطة تبقى شفافة)
+	Stop the preview	إيقاف المعاينة
 	Stops this sound	يوقف هذا الصوت
 	Straight	مستقيم
 	Straighten	تقويم
@@ -939,6 +990,7 @@
 	The selected frames hold {keyframes} with {elements}. You can undo this.	تحوي الإطارات المحددة {keyframes} فيها {elements}. يمكنك التراجع عن هذا.
 	the shortcut editor	محرر الاختصارات
 	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	يترك المخطط الزمني دائمًا مساحة قبل الإطار 1 لرأس التشغيل، وهذا الخيار يضيف المزيد. تبقى المساحة نفسها عند أي تكبير.
+	The volume of this layer's sounds, and of the sounds in the symbols on it	مستوى صوت أصوات هذه الطبقة، والأصوات داخل الرموز التي عليها
 	These run when the playhead enters frame {start} (the keyframe). For frame {frame}, add a keyframe there ({key}).	تعمل هذه عندما يدخل رأس التشغيل الإطار {start} (الإطار الرئيسي). وللإطار {frame}، أضف إطارًا رئيسيًا هناك ({key}).
 	this action	هذا الإجراء
 	this browser keeps no storage for the site (private browsing?)	هذا المتصفح لا يحتفظ بتخزين للموقع (تصفّح خاص؟)
@@ -976,6 +1028,7 @@
 	Undid {action}	تم التراجع عن {action}
 	undo {n} · {mb} MB	التراجع {n} · {mb} ميغابايت
 	Uniform	منتظم
+	Unmute this layer's sounds	إلغاء كتم أصوات هذه الطبقة
 	Untitled	بلا عنوان
 	Up/Down choose · Enter run · Esc close	أعلى/أسفل للاختيار · Enter للتشغيل · Esc للإغلاق
 	Updated {name} {version} — find it in Commands › Plug-ins	حُدّث {name} {version} — تجده في الأوامر › المكوّنات الإضافية
@@ -986,6 +1039,8 @@
 	Video (WebM or MP4)	فيديو (WebM أو MP4)
 	View action	إجراء عرض
 	Visible	الظهور
+	Volume	مستوى الصوت
+	Volume points of your own, per channel (Edit Envelope)	نقاط مستوى صوت من اختيارك، لكل قناة (تحرير الغلاف)
 	Welcome to AniCraft. Press Enter to play the sample animation.	مرحبًا بك في AniCraft. اضغط Enter لتشغيل الرسوم المتحركة التجريبية.
 	What runs when the playhead enters a keyframe	ما يعمل عندما يدخل رأس التشغيل إطارًا رئيسيًا
 	What runs when the playhead enters this keyframe ({key})	ما يعمل عندما يدخل رأس التشغيل هذا الإطار الرئيسي ({key})
@@ -1000,6 +1055,7 @@
 	Zoom at the cursor	التكبير عند المؤشر
 	Zoom Camera	تكبير الكاميرا
 	Zoom in / out	تكبير / تصغير
+	Zoom to fit	تكبير للملاءمة
 	{action} shortcut {key}	اختصار {action}: {key}
 	{action}: back to the default	{action}: عاد إلى الافتراضي
 	{action}: key removed	{action}: أُزيل المفتاح
@@ -1040,6 +1096,7 @@
 	{name} folder row	صف المجلد {name}
 	{name} · {kind}	{name} · {kind}
 	{name} — Ctrl+Z to undo	{name} — Ctrl+Z للتراجع
+	{name}: click to add a volume point	{name}: انقر لإضافة نقطة مستوى صوت
 	{n} commands are scriptable via anicraft-cli	عدد الأوامر القابلة للبرمجة عبر anicraft-cli: {n}
 	{n} engine commands — all available headless via anicraft-cli.	أوامر المحرك: {n} — كلها متاحة بلا واجهة عبر anicraft-cli.
 	{n} f	{n} إطار
@@ -1049,6 +1106,7 @@
 	{panel} · {key} for the next panel	{panel} · {key} للوحة التالية
 	{path} already exists. Exporting will replace it; this cannot be undone.	{path} موجود مسبقًا. التصدير سيستبدله، ولا يمكن التراجع عن ذلك.
 	{path} already exists. Saving will replace it; this cannot be undone.	{path} موجود مسبقًا. الحفظ سيستبدله، ولا يمكن التراجع عن ذلك.
+	{pct} % at {time} · drag to move, right-click to delete	{pct} % عند {time} · اسحب للنقل، وانقر بالزر الأيمن للحذف
 	{property} curve	منحنى {property}
 	{property} ease	تسارع {property} وتباطؤه
 	{property} has no keyframes: it stays {value}. Click ◇ or drag its value to key it here.	لا توجد إطارات رئيسية لـ {property}: يبقى {value}. انقر ◇ أو اسحب قيمته لإضافة مفتاح هنا.
@@ -1066,6 +1124,7 @@
 	“{name}” {version} is already installed. Installing {path} replaces its file in the plug-ins folder ({dest}); this cannot be undone.	«{name}» {version} مثبّت مسبقًا. تثبيت {path} يستبدل ملفه في مجلد المكوّنات الإضافية ({dest})؛ ولا يمكن التراجع عن هذا.
 	… older steps freed (memory budget)	… حُرّرت الخطوات الأقدم (ميزانية الذاكرة)
 @plural	Curved · {n} segment|Curved · {n} segments	منحنٍ · {n} مقطع|منحنٍ · {n} مقطع|منحنٍ · {n} مقطعان|منحنٍ · {n} مقاطع|منحنٍ · {n} مقطعًا|منحنٍ · {n} مقطع
+@plural	played {n} time|played {n} times	يُشغَّل {n} مرة|يُشغَّل {n} مرة|يُشغَّل {n} مرتين|يُشغَّل {n} مرات|يُشغَّل {n} مرة|يُشغَّل {n} مرة
 @plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	إعادة {n} من الاختصارات المغيّرة إلى الافتراضي؟|إعادة الاختصار المغيّر ({n}) إلى الافتراضي؟|إعادة الاختصارين المغيّرين ({n}) إلى الافتراضي؟|إعادة {n} اختصارات مغيّرة إلى الافتراضي؟|إعادة {n} اختصارًا مغيّرًا إلى الافتراضي؟|إعادة {n} اختصار مغيّر إلى الافتراضي؟
 @plural	{n} day ago|{n} days ago	منذ {n} يوم|منذ {n} يوم|منذ {n} يومين|منذ {n} أيام|منذ {n} يومًا|منذ {n} يوم
 @plural	{n} element selected|{n} elements selected	{n} عنصر محدّد|{n} عنصر محدّد|{n} عنصران محدّدان|{n} عناصر محدّدة|{n} عنصرًا محدّدًا|{n} عنصر محدّد
